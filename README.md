@@ -1876,3 +1876,4 @@ This will only work for locales that have been explicitly imported before.
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/infernojs/create-inferno-app/issues) or [contribute some!](https://github.com/infernojs/create-inferno-app/edit/master/packages/inferno-scripts/template/README.md)
+# where-can-i-carry
