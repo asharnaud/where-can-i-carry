@@ -1,5 +1,37 @@
 [
   {
-    "lat":...
+    "name":"CVS",
+    "lat":29.770347,
+    "lng":-95.417,
+    "openCarry":true,
+    "concealedCarry":false
+  },
+  {
+    "name":"Kung Fu Saloon",
+    "lat":29.770366,
+    "lng":-95.415863,
+    "openCarry":false,
+    "concealedCarry":false
+  },
+  {
+    "name":"Velvet Taco",
+    "lat":29.77025,
+    "lng":-95.410069,
+    "openCarry":false,
+    "concealedCarry":true
+  },
+  {
+    "name":"My House",
+    "lat":29.779927,
+    "lng":-95.427243,
+    "openCarry":true,
+    "concealedCarry":true
+  },
+  {
+    "name":"Down the Street",
+    "lat":29.779369,
+    "lng":-95.426077,
+    "openCarry":false,
+    "concealedCarry":false
   }
 ]
