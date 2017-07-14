@@ -1,6 +1,18 @@
 /* global google MarkerClusterer */
 
 import './markerclusterer.js'
+import $ from './zepto-1.2.0.js'
+
+function getLatLng (data) {
+  var locationsObj = []
+  data.forEach(function (item) {
+    locationsObj.push({lat: item.lat, lng: item.lng})
+  })
+  console.log(locationsObj)
+  return locationsObj
+}
+
+$.getJSON('../data/locations.json', getLatLng)
 
 var locations = [
   {lat: 29.76706, lng: -95.416946},

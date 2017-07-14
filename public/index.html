@@ -19,8 +19,11 @@
     <!-- <div id="app"></div> -->
       <div id="map" class="map"></div>
       <div class="side-bar">
-      <i class="fa fa-map-marker" aria-hidden="true"></i><h2>Where Can I Carry?</h2>
-        <div>
+        <div class="header-container">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <p>Where Can I Carry?</p>
+        </div>
+        <div class="checkbox-container">
           <input type="checkbox"/>
           <label class="checkbox-item"> Open Carry <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
           </br>
@@ -33,8 +36,9 @@
           <input type="checkbox"/>
           <label class="checkbox-item"> Concealed Carry <i class="fa fa-ban" aria-hidden="true"></i>
         </div>
-        <button>Add Location</button>
+        <a href="#" class="add-location-btn"><span>Add Location</span></a>
       </div>
+      <footer class="footer"></footer>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC67l8WPqxwg_Acx1XMIfKR3_VEFHVlbyI&callback=window.INIT_GMAP">
     </script>

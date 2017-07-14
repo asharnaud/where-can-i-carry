@@ -1,37 +1,5602 @@
 [
   {
-    "name":"CVS",
-    "lat":29.770347,
-    "lng":-95.417,
-    "openCarry":true,
-    "concealedCarry":false
+    "id": "596807aa34ca5ad09f0c226f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Flumbo",
+    "lat": 29.6619,
+    "lng": -95.8508
   },
   {
-    "name":"Kung Fu Saloon",
-    "lat":29.770366,
-    "lng":-95.415863,
-    "openCarry":false,
-    "concealedCarry":false
+    "id": "596807aae2f564f093160790",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Kyaguru",
+    "lat": 29.602,
+    "lng": -95.6359
   },
   {
-    "name":"Velvet Taco",
-    "lat":29.77025,
-    "lng":-95.410069,
-    "openCarry":false,
-    "concealedCarry":true
+    "id": "596807aa0d8ba7ae613f07f2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Ginkogene",
+    "lat": 29.2154,
+    "lng": -95.743
   },
   {
-    "name":"My House",
-    "lat":29.779927,
-    "lng":-95.427243,
-    "openCarry":true,
-    "concealedCarry":true
+    "id": "596807aa5d954a7a9db9d445",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Cubix",
+    "lat": 29.1958,
+    "lng": -95.4679
   },
   {
-    "name":"Down the Street",
-    "lat":29.779369,
-    "lng":-95.426077,
-    "openCarry":false,
-    "concealedCarry":false
+    "id": "596807aa83996cc2483f9738",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Talkalot",
+    "lat": 29.5081,
+    "lng": -95.2616
+  },
+  {
+    "id": "596807aacbce456bc1677438",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Orboid",
+    "lat": 29.0997,
+    "lng": -95.5486
+  },
+  {
+    "id": "596807aa19908a1cd819090b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Xleen",
+    "lat": 29.7506,
+    "lng": -95.7995
+  },
+  {
+    "id": "596807aa97433c708b310051",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Aquasseur",
+    "lat": 29.8329,
+    "lng": -95.651
+  },
+  {
+    "id": "596807aa7dfe9e42823d85c5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Maxemia",
+    "lat": 29.4236,
+    "lng": -95.0527
+  },
+  {
+    "id": "596807aa6a9c6dcaa9c977ba",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zizzle",
+    "lat": 29.1387,
+    "lng": -95.4364
+  },
+  {
+    "id": "596807aab9ffd1ada52abe65",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Bleeko",
+    "lat": 29.3553,
+    "lng": -95.6335
+  },
+  {
+    "id": "596807aa6ac080aaf868472b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Everest",
+    "lat": 29.3946,
+    "lng": -95.8754
+  },
+  {
+    "id": "596807aa674cbc05e3a7e4e8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Envire",
+    "lat": 29.0238,
+    "lng": -95.0089
+  },
+  {
+    "id": "596807aad39c68cfe7b78fa6",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Enersave",
+    "lat": 29.6449,
+    "lng": -95.5116
+  },
+  {
+    "id": "596807aa4b6efd9e0abdb1ea",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Locazone",
+    "lat": 29.3925,
+    "lng": -95.509
+  },
+  {
+    "id": "596807aa8183a0d3d86cef44",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Frosnex",
+    "lat": 29.1704,
+    "lng": -95.5154
+  },
+  {
+    "id": "596807aa1dd1ef3e48b94c7b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Liquicom",
+    "lat": 29.4444,
+    "lng": -95.7591
+  },
+  {
+    "id": "596807aa2eefbeec889da987",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Cosmetex",
+    "lat": 29.5085,
+    "lng": -95.2531
+  },
+  {
+    "id": "596807aa62ba11f04b856634",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Cofine",
+    "lat": 29.8156,
+    "lng": -95.1993
+  },
+  {
+    "id": "596807aaf61008655aa588d3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Snowpoke",
+    "lat": 29.1986,
+    "lng": -95.1199
+  },
+  {
+    "id": "596807aaaa3d24d3ec6d636b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Fangold",
+    "lat": 29.1886,
+    "lng": -95.6526
+  },
+  {
+    "id": "596807aa559e83152947c44e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Flyboyz",
+    "lat": 29.6598,
+    "lng": -95.8303
+  },
+  {
+    "id": "596807aa09f792e6dd3eb20c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Rocklogic",
+    "lat": 29.7412,
+    "lng": -95.3973
+  },
+  {
+    "id": "596807aaefaca0648dcb624a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zaggle",
+    "lat": 29.6095,
+    "lng": -95.8635
+  },
+  {
+    "id": "596807aa54ae485e8b9ff779",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Quiltigen",
+    "lat": 29.6522,
+    "lng": -95.6191
+  },
+  {
+    "id": "596807aac54ea8a922a27afe",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Accel",
+    "lat": 29.0266,
+    "lng": -95.681
+  },
+  {
+    "id": "596807aa8e1b9f57436e6df4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Skinserve",
+    "lat": 29.6432,
+    "lng": -95.8766
+  },
+  {
+    "id": "596807aa7a74eb5c7445cbdf",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Euron",
+    "lat": 29.8795,
+    "lng": -95.5672
+  },
+  {
+    "id": "596807aaf2c9fcd52a0d69dc",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Roughies",
+    "lat": 29.4897,
+    "lng": -95.5466
+  },
+  {
+    "id": "596807aaea5d8844d5c60719",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Quintity",
+    "lat": 29.8587,
+    "lng": -95.7372
+  },
+  {
+    "id": "596807aad6aae413f8914fc8",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Lotron",
+    "lat": 29.2822,
+    "lng": -95.2207
+  },
+  {
+    "id": "596807aa63fd7b43a01067c0",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Proxsoft",
+    "lat": 29.881,
+    "lng": -95.365
+  },
+  {
+    "id": "596807aabf53f35acaae4332",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Netility",
+    "lat": 29.1636,
+    "lng": -95.7672
+  },
+  {
+    "id": "596807aa43ed36c7f1cf118a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Isostream",
+    "lat": 29.5513,
+    "lng": -95.3063
+  },
+  {
+    "id": "596807aa1cc77e3fb6bdffbe",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Uplinx",
+    "lat": 29.7513,
+    "lng": -95.3707
+  },
+  {
+    "id": "596807aa2767b669b7e4bd7c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Netplode",
+    "lat": 29.6551,
+    "lng": -95.2312
+  },
+  {
+    "id": "596807aac4ecf6a657e6779e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Homelux",
+    "lat": 29.4984,
+    "lng": -95.7247
+  },
+  {
+    "id": "596807aa8dabcc5efa6da2fb",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Dadabase",
+    "lat": 29.1607,
+    "lng": -95.3148
+  },
+  {
+    "id": "596807aa672f79c00e50640f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Supremia",
+    "lat": 29.4842,
+    "lng": -95.7392
+  },
+  {
+    "id": "596807aa897d2997ea4fd42d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Corepan",
+    "lat": 29.4159,
+    "lng": -95.3862
+  },
+  {
+    "id": "596807aa093f8e29f51c5c93",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Daycore",
+    "lat": 29.7689,
+    "lng": -95.4752
+  },
+  {
+    "id": "596807aa069ee4afdc4bb0c1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Enerforce",
+    "lat": 29.3753,
+    "lng": -95.4986
+  },
+  {
+    "id": "596807aa0b05324147949567",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Comfirm",
+    "lat": 29.1495,
+    "lng": -95.1662
+  },
+  {
+    "id": "596807aa9f988e37daeaef2a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Gink",
+    "lat": 29.4992,
+    "lng": -95.3781
+  },
+  {
+    "id": "596807aa3a5f5ab86ce67262",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Blurrybus",
+    "lat": 29.6472,
+    "lng": -95.1677
+  },
+  {
+    "id": "596807aab1565e89495a2ef6",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Gluid",
+    "lat": 29.7226,
+    "lng": -95.4071
+  },
+  {
+    "id": "596807aae016b8178af773e4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Accidency",
+    "lat": 29.1633,
+    "lng": -95.0317
+  },
+  {
+    "id": "596807aadf88adaf5f8f3d21",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Exostream",
+    "lat": 29.2115,
+    "lng": -95.7066
+  },
+  {
+    "id": "596807aa9889c39749856ccf",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Plasmos",
+    "lat": 29.8212,
+    "lng": -95.4296
+  },
+  {
+    "id": "596807aaf6bd4f8cf95f6b44",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Atomica",
+    "lat": 29.8732,
+    "lng": -95.4714
+  },
+  {
+    "id": "596807aa8d934326186e05c0",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Magnemo",
+    "lat": 29.3459,
+    "lng": -95.2088
+  },
+  {
+    "id": "596807aaaa10ceb95f5fb8dd",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Emergent",
+    "lat": 29.0173,
+    "lng": -95.5627
+  },
+  {
+    "id": "596807aa174dd980860bec80",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Bleendot",
+    "lat": 29.037,
+    "lng": -95.6694
+  },
+  {
+    "id": "596807aa9ebf3fef56f7dfd8",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Isoternia",
+    "lat": 29.8076,
+    "lng": -95.6281
+  },
+  {
+    "id": "596807aa1719ec1b55bb5781",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Isbol",
+    "lat": 29.1113,
+    "lng": -95.4186
+  },
+  {
+    "id": "596807aad60eeb8bd23a5598",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Plutorque",
+    "lat": 29.2121,
+    "lng": -95.3322
+  },
+  {
+    "id": "596807aa50aa4eb0f3e9e181",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Junipoor",
+    "lat": 29.1638,
+    "lng": -95.5465
+  },
+  {
+    "id": "596807aa694210bd3a8ddd0e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Orbean",
+    "lat": 29.817,
+    "lng": -95.4423
+  },
+  {
+    "id": "596807aa12b15db9c13e18da",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Buzzness",
+    "lat": 29.3209,
+    "lng": -95.509
+  },
+  {
+    "id": "596807aa4278dab6912dd8af",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Biflex",
+    "lat": 29.6103,
+    "lng": -95.6954
+  },
+  {
+    "id": "596807aab75f39c1d316f0df",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Nixelt",
+    "lat": 29.0396,
+    "lng": -95.0754
+  },
+  {
+    "id": "596807aa7bf1b3ba7a83d83d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Bisba",
+    "lat": 29.5123,
+    "lng": -95.0805
+  },
+  {
+    "id": "596807aa39ce61b22a900fee",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Buzzworks",
+    "lat": 29.7214,
+    "lng": -95.1875
+  },
+  {
+    "id": "596807aa4c801002a9972fc0",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Motovate",
+    "lat": 29.5176,
+    "lng": -95.0794
+  },
+  {
+    "id": "596807aa7b0d8961b8a4a7cf",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Quizka",
+    "lat": 29.4297,
+    "lng": -95.8918
+  },
+  {
+    "id": "596807aa1fe0d26e616260a2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Sulfax",
+    "lat": 29.5073,
+    "lng": -95.8552
+  },
+  {
+    "id": "596807aa75679085cc12fd5f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Quarmony",
+    "lat": 29.0296,
+    "lng": -95.2846
+  },
+  {
+    "id": "596807aa9f991c6e3b1e6bff",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Vicon",
+    "lat": 29.0077,
+    "lng": -95.8902
+  },
+  {
+    "id": "596807aa25605055c8bcd87f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Paprikut",
+    "lat": 29.3343,
+    "lng": -95.2442
+  },
+  {
+    "id": "596807aa66023de7b24f990f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Isoplex",
+    "lat": 29.805,
+    "lng": -95.5255
+  },
+  {
+    "id": "596807aac4544e1b174d98cf",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Roboid",
+    "lat": 29.7494,
+    "lng": -95.0995
+  },
+  {
+    "id": "596807aaa114174f69684eb2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Menbrain",
+    "lat": 29.694,
+    "lng": -95.8543
+  },
+  {
+    "id": "596807aa44041ea845843bf5",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Kindaloo",
+    "lat": 29.3172,
+    "lng": -95.7456
+  },
+  {
+    "id": "596807aaed55500f26e62eeb",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Sentia",
+    "lat": 29.7388,
+    "lng": -95.4836
+  },
+  {
+    "id": "596807aa4661f979d42a893e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Pearlessa",
+    "lat": 29.7707,
+    "lng": -95.1997
+  },
+  {
+    "id": "596807aa30f0e70b76d18b18",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Veraq",
+    "lat": 29.0071,
+    "lng": -95.2787
+  },
+  {
+    "id": "596807aa2d8407acbe704b47",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Eternis",
+    "lat": 29.6189,
+    "lng": -95.8262
+  },
+  {
+    "id": "596807aa60644e1f478bb2d6",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Geekko",
+    "lat": 29.425,
+    "lng": -95.1158
+  },
+  {
+    "id": "596807aa2c9ecdaf9e6b598c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Opticon",
+    "lat": 29.6855,
+    "lng": -95.3393
+  },
+  {
+    "id": "596807aab4642b2c913b5c95",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Isologix",
+    "lat": 29.4498,
+    "lng": -95.4635
+  },
+  {
+    "id": "596807aa19b61df8daa68f23",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Eplode",
+    "lat": 29.7353,
+    "lng": -95.4486
+  },
+  {
+    "id": "596807aab85e6d9bd02d316d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Keengen",
+    "lat": 29.382,
+    "lng": -95.2825
+  },
+  {
+    "id": "596807aa5f1a38825671eb6d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Parleynet",
+    "lat": 29.4176,
+    "lng": -95.4837
+  },
+  {
+    "id": "596807aa365edfb0f24e05c7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Comdom",
+    "lat": 29.3528,
+    "lng": -95.1188
+  },
+  {
+    "id": "596807aae1d43c156b8752ce",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Emoltra",
+    "lat": 29.3212,
+    "lng": -95.1774
+  },
+  {
+    "id": "596807aad45acb58c6be1e3f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Deepends",
+    "lat": 29.4578,
+    "lng": -95.5095
+  },
+  {
+    "id": "596807aa1ac1d3713e1034b7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zillacom",
+    "lat": 29.7572,
+    "lng": -95.2533
+  },
+  {
+    "id": "596807aa4d18d91c3d09a25e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zilencio",
+    "lat": 29.8742,
+    "lng": -95.4051
+  },
+  {
+    "id": "596807aa5cd4316386c41e9c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Xerex",
+    "lat": 29.6219,
+    "lng": -95.7043
+  },
+  {
+    "id": "596807aa54977851fdae8ecb",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Earwax",
+    "lat": 29.8235,
+    "lng": -95.7411
+  },
+  {
+    "id": "596807aaa274360cc4d6f8d8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Teraprene",
+    "lat": 29.7981,
+    "lng": -95.6392
+  },
+  {
+    "id": "596807aaff45d63397eac81b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Rubadub",
+    "lat": 29.4226,
+    "lng": -95.1152
+  },
+  {
+    "id": "596807aa9ada6c390c348c1d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Silodyne",
+    "lat": 29.2634,
+    "lng": -95.0615
+  },
+  {
+    "id": "596807aa6a2b46194114e0b4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zilodyne",
+    "lat": 29.797,
+    "lng": -95.43
+  },
+  {
+    "id": "596807aa6fc0229b446da316",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Digiprint",
+    "lat": 29.2614,
+    "lng": -95.1383
+  },
+  {
+    "id": "596807aa34c45a2d59f7423b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Dancity",
+    "lat": 29.4869,
+    "lng": -95.0658
+  },
+  {
+    "id": "596807aa21ec055512572b15",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Gology",
+    "lat": 29.0356,
+    "lng": -95.3197
+  },
+  {
+    "id": "596807aabb7b3737739e0374",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Plexia",
+    "lat": 29.494,
+    "lng": -95.0276
+  },
+  {
+    "id": "596807aa7033de61edbbcbdd",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Fleetmix",
+    "lat": 29.0234,
+    "lng": -95.4115
+  },
+  {
+    "id": "596807aa97d585f73677af39",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Neteria",
+    "lat": 29.3791,
+    "lng": -95.7538
+  },
+  {
+    "id": "596807aab7461aa43bffb0b2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Intrawear",
+    "lat": 29.4773,
+    "lng": -95.4268
+  },
+  {
+    "id": "596807aab073833849bdb1a9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Turnling",
+    "lat": 29.8244,
+    "lng": -95.2793
+  },
+  {
+    "id": "596807aaee70ce7f4c9c4210",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Emtrac",
+    "lat": 29.5286,
+    "lng": -95.6284
+  },
+  {
+    "id": "596807aa5fa29cb556355448",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Insectus",
+    "lat": 29.4364,
+    "lng": -95.7456
+  },
+  {
+    "id": "596807aafefbef618cbc9456",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Golistic",
+    "lat": 29.4482,
+    "lng": -95.365
+  },
+  {
+    "id": "596807aa610a4367955f4e95",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Optique",
+    "lat": 29.8404,
+    "lng": -95.8271
+  },
+  {
+    "id": "596807aa32eb37808f2ea17a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Exoblue",
+    "lat": 29.0154,
+    "lng": -95.6357
+  },
+  {
+    "id": "596807aa6db93b8c46547581",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Tribalog",
+    "lat": 29.2136,
+    "lng": -95.4896
+  },
+  {
+    "id": "596807aab4dd217eae85a64c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Quizmo",
+    "lat": 29.2347,
+    "lng": -95.6648
+  },
+  {
+    "id": "596807aa750ba08e618e1334",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Niquent",
+    "lat": 29.5272,
+    "lng": -95.3958
+  },
+  {
+    "id": "596807aa66fb5d0a81f8a5a2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Quailcom",
+    "lat": 29.4033,
+    "lng": -95.2229
+  },
+  {
+    "id": "596807aa5487d5dbc4dd1e44",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Dognosis",
+    "lat": 29.1847,
+    "lng": -95.1491
+  },
+  {
+    "id": "596807aac2492972a6617fb1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Isotronic",
+    "lat": 29.1987,
+    "lng": -95.0539
+  },
+  {
+    "id": "596807aafb6185320d947a28",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Recrisys",
+    "lat": 29.3844,
+    "lng": -95.8793
+  },
+  {
+    "id": "596807aa589112b9d5670451",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Endipin",
+    "lat": 29.6944,
+    "lng": -95.4211
+  },
+  {
+    "id": "596807aa5842a03bef5e7a54",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Earthplex",
+    "lat": 29.3948,
+    "lng": -95.0619
+  },
+  {
+    "id": "596807aa33e848161e5e8403",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Exoteric",
+    "lat": 29.4519,
+    "lng": -95.0846
+  },
+  {
+    "id": "596807aae93fb206a6f51610",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Bunga",
+    "lat": 29.2368,
+    "lng": -95.7123
+  },
+  {
+    "id": "596807aa7be1d9f7091a017a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Ontality",
+    "lat": 29.6804,
+    "lng": -95.1173
+  },
+  {
+    "id": "596807aa78a56fe3bfaa360d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Perkle",
+    "lat": 29.7097,
+    "lng": -95.5758
+  },
+  {
+    "id": "596807aaf19f6c6acabf5f44",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Remotion",
+    "lat": 29.15,
+    "lng": -95.0857
+  },
+  {
+    "id": "596807aaf9334d154dad6c4c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Bolax",
+    "lat": 29.8377,
+    "lng": -95.7979
+  },
+  {
+    "id": "596807aa521f11e6c96a0ee5",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Andershun",
+    "lat": 29.3353,
+    "lng": -95.0156
+  },
+  {
+    "id": "596807aa19f4fcc30f2cb932",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Exposa",
+    "lat": 29.865,
+    "lng": -95.3214
+  },
+  {
+    "id": "596807aaf1bdfd00f4f1062e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Utarian",
+    "lat": 29.4577,
+    "lng": -95.8394
+  },
+  {
+    "id": "596807aabf35084881547cde",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Progenex",
+    "lat": 29.0741,
+    "lng": -95.7907
+  },
+  {
+    "id": "596807aa909eaa5dc4404232",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Franscene",
+    "lat": 29.0164,
+    "lng": -95.1745
+  },
+  {
+    "id": "596807aa9228db77e1b34c40",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Goko",
+    "lat": 29.3749,
+    "lng": -95.7448
+  },
+  {
+    "id": "596807aa9552650f4dcd68ac",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Rodemco",
+    "lat": 29.2326,
+    "lng": -95.5889
+  },
+  {
+    "id": "596807aa7caa291abf715e5c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Xymonk",
+    "lat": 29.5799,
+    "lng": -95.4523
+  },
+  {
+    "id": "596807aa04de74bf084193ea",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Synkgen",
+    "lat": 29.2198,
+    "lng": -95.496
+  },
+  {
+    "id": "596807aad93683bdba0d0ba1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Cinaster",
+    "lat": 29.7584,
+    "lng": -95.1667
+  },
+  {
+    "id": "596807aae02f448d1a16d415",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Housedown",
+    "lat": 29.5757,
+    "lng": -95.4506
+  },
+  {
+    "id": "596807aa7e7d116434b88037",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zenco",
+    "lat": 29.2741,
+    "lng": -95.4232
+  },
+  {
+    "id": "596807aadf024152ecead25c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Strozen",
+    "lat": 29.1822,
+    "lng": -95.7529
+  },
+  {
+    "id": "596807aabb88622adaacb608",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Naxdis",
+    "lat": 29.0232,
+    "lng": -95.4679
+  },
+  {
+    "id": "596807aa1c8b1eef3ba979b2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Ronbert",
+    "lat": 29.322,
+    "lng": -95.5845
+  },
+  {
+    "id": "596807aa2f3d48e7ef0deb3c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Flotonic",
+    "lat": 29.3458,
+    "lng": -95.0162
+  },
+  {
+    "id": "596807aa3d3b625752b969a3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Comtour",
+    "lat": 29.6925,
+    "lng": -95.0772
+  },
+  {
+    "id": "596807aa4bb367d902403b01",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Canopoly",
+    "lat": 29.8307,
+    "lng": -95.5435
+  },
+  {
+    "id": "596807aad11ec4cc6f033bb3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Gallaxia",
+    "lat": 29.8998,
+    "lng": -95.3429
+  },
+  {
+    "id": "596807aa9f8405cbd46bec63",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Xelegyl",
+    "lat": 29.0746,
+    "lng": -95.1108
+  },
+  {
+    "id": "596807aa019e5e1918db3d96",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Centregy",
+    "lat": 29.8499,
+    "lng": -95.5946
+  },
+  {
+    "id": "596807aa50c5f8a7be7b8a9c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Microluxe",
+    "lat": 29.897,
+    "lng": -95.1662
+  },
+  {
+    "id": "596807aabc992bb0b83c1aef",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Snacktion",
+    "lat": 29.7957,
+    "lng": -95.0711
+  },
+  {
+    "id": "596807aa9af86051db9b1866",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Medmex",
+    "lat": 29.0984,
+    "lng": -95.4922
+  },
+  {
+    "id": "596807aa483b7559bac84e99",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Sustenza",
+    "lat": 29.1912,
+    "lng": -95.5767
+  },
+  {
+    "id": "596807aaeb42998654d21323",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Quadeebo",
+    "lat": 29.757,
+    "lng": -95.0831
+  },
+  {
+    "id": "596807aa109e0d6729acb50f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Opportech",
+    "lat": 29.3412,
+    "lng": -95.2122
+  },
+  {
+    "id": "596807aac5015daab4d32a37",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Recritube",
+    "lat": 29.4521,
+    "lng": -95.4536
+  },
+  {
+    "id": "596807aa864c1ef9e6bb4b1f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zialactic",
+    "lat": 29.7988,
+    "lng": -95.0287
+  },
+  {
+    "id": "596807aa8e01f14b4362387c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Apex",
+    "lat": 29.6346,
+    "lng": -95.8369
+  },
+  {
+    "id": "596807aa22bb076145240c88",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Melbacor",
+    "lat": 29.7077,
+    "lng": -95.0823
+  },
+  {
+    "id": "596807aa8a1096f6d3bfcd25",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Slofast",
+    "lat": 29.3413,
+    "lng": -95.1788
+  },
+  {
+    "id": "596807aa08abfba381d74b47",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Exotechno",
+    "lat": 29.1173,
+    "lng": -95.7544
+  },
+  {
+    "id": "596807aaa47fd2613911f9a5",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Daisu",
+    "lat": 29.4131,
+    "lng": -95.3795
+  },
+  {
+    "id": "596807aad9625747c83f998c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Newcube",
+    "lat": 29.8308,
+    "lng": -95.8734
+  },
+  {
+    "id": "596807aaed051934fcd86294",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Syntac",
+    "lat": 29.347,
+    "lng": -95.0135
+  },
+  {
+    "id": "596807aa8a4c8f9faac6cf31",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Anarco",
+    "lat": 29.6404,
+    "lng": -95.1973
+  },
+  {
+    "id": "596807aa979dc72540c19599",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Ecraze",
+    "lat": 29.4666,
+    "lng": -95.1832
+  },
+  {
+    "id": "596807aa8ceddba2677d205a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Genmy",
+    "lat": 29.3401,
+    "lng": -95.4699
+  },
+  {
+    "id": "596807aa0bd7babad0ecae14",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Delphide",
+    "lat": 29.4583,
+    "lng": -95.0976
+  },
+  {
+    "id": "596807aadc2dd3980b5601c2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Shopabout",
+    "lat": 29.6475,
+    "lng": -95.7565
+  },
+  {
+    "id": "596807aa8dad05a15b85eb4c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Xplor",
+    "lat": 29.4064,
+    "lng": -95.0907
+  },
+  {
+    "id": "596807aad8854e945b8f7a4f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zentury",
+    "lat": 29.2205,
+    "lng": -95.8105
+  },
+  {
+    "id": "596807aadcd6c89c4a0de4fa",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Squish",
+    "lat": 29.0417,
+    "lng": -95.7766
+  },
+  {
+    "id": "596807aaa5878dd337ab742b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Comtext",
+    "lat": 29.8972,
+    "lng": -95.775
+  },
+  {
+    "id": "596807aa9e828fdafe429fb9",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Nutralab",
+    "lat": 29.6538,
+    "lng": -95.016
+  },
+  {
+    "id": "596807aad05c774b3f6e823b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Stralum",
+    "lat": 29.0622,
+    "lng": -95.1825
+  },
+  {
+    "id": "596807aaf486e9f1e6cd4276",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Biospan",
+    "lat": 29.1621,
+    "lng": -95.3691
+  },
+  {
+    "id": "596807aa4fcf676f181415b3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Nspire",
+    "lat": 29.8279,
+    "lng": -95.8577
+  },
+  {
+    "id": "596807aa218960d86255a591",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Rooforia",
+    "lat": 29.5991,
+    "lng": -95.1701
+  },
+  {
+    "id": "596807aa3d070ff3e0f1ab9b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Idetica",
+    "lat": 29.2478,
+    "lng": -95.2919
+  },
+  {
+    "id": "596807aa553e34e22e49c02a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Isoswitch",
+    "lat": 29.2474,
+    "lng": -95.715
+  },
+  {
+    "id": "596807aafea5d8c3a91fb87e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Puria",
+    "lat": 29.2601,
+    "lng": -95.8366
+  },
+  {
+    "id": "596807aa9ac92614a9071db6",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Namegen",
+    "lat": 29.3037,
+    "lng": -95.8633
+  },
+  {
+    "id": "596807aadb356f75d5ed7a63",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Enersol",
+    "lat": 29.057,
+    "lng": -95.2174
+  },
+  {
+    "id": "596807aa3e648d51ecceefa7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Limage",
+    "lat": 29.5819,
+    "lng": -95.1129
+  },
+  {
+    "id": "596807aacd12327f52b55bd1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Yogasm",
+    "lat": 29.7787,
+    "lng": -95.6305
+  },
+  {
+    "id": "596807aab396e89766107f75",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Artworlds",
+    "lat": 29.5436,
+    "lng": -95.0128
+  },
+  {
+    "id": "596807aab6f4b5105cff5c32",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Pushcart",
+    "lat": 29.4775,
+    "lng": -95.6777
+  },
+  {
+    "id": "596807aa8ff625385f0227b4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Eweville",
+    "lat": 29.5834,
+    "lng": -95.6627
+  },
+  {
+    "id": "596807aa4a319dffe692f478",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Terrasys",
+    "lat": 29.1221,
+    "lng": -95.3043
+  },
+  {
+    "id": "596807aaaae5f696b9124fee",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Maximind",
+    "lat": 29.3096,
+    "lng": -95.7251
+  },
+  {
+    "id": "596807aa0dfa26524e5b1cbf",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Pheast",
+    "lat": 29.1432,
+    "lng": -95.6211
+  },
+  {
+    "id": "596807aa63cb338255f4109f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Vendblend",
+    "lat": 29.8262,
+    "lng": -95.2045
+  },
+  {
+    "id": "596807aa87dfc51165904632",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Miracula",
+    "lat": 29.7932,
+    "lng": -95.688
+  },
+  {
+    "id": "596807aa8096ce30dcc73447",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Artiq",
+    "lat": 29.4985,
+    "lng": -95.4386
+  },
+  {
+    "id": "596807aaa538590bf6cff645",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Interodeo",
+    "lat": 29.3042,
+    "lng": -95.102
+  },
+  {
+    "id": "596807aa624b39e3658461cd",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zillactic",
+    "lat": 29.1093,
+    "lng": -95.7087
+  },
+  {
+    "id": "596807aa08438e761c10606d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Panzent",
+    "lat": 29.382,
+    "lng": -95.6087
+  },
+  {
+    "id": "596807aa8ee7d0eda17d1727",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Kyagoro",
+    "lat": 29.6275,
+    "lng": -95.4255
+  },
+  {
+    "id": "596807aaffd409f96e54f899",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Obones",
+    "lat": 29.3141,
+    "lng": -95.3948
+  },
+  {
+    "id": "596807aa3c887b25c8ba357b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Enomen",
+    "lat": 29.6919,
+    "lng": -95.0454
+  },
+  {
+    "id": "596807aa84ae1995f088ac27",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Premiant",
+    "lat": 29.1487,
+    "lng": -95.123
+  },
+  {
+    "id": "596807aab7db055f5a80333b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zillatide",
+    "lat": 29.2947,
+    "lng": -95.7151
+  },
+  {
+    "id": "596807aa18c8f8e1da8758ad",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Manufact",
+    "lat": 29.3189,
+    "lng": -95.0769
+  },
+  {
+    "id": "596807aaaea2d10962666524",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Insuresys",
+    "lat": 29.0001,
+    "lng": -95.0607
+  },
+  {
+    "id": "596807aa125f9efca94e6bf0",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Rockabye",
+    "lat": 29.728,
+    "lng": -95.0199
+  },
+  {
+    "id": "596807aa8e6dd8cb0524cbd0",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Signity",
+    "lat": 29.501,
+    "lng": -95.5057
+  },
+  {
+    "id": "596807aae7e522686f93a1d7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Austex",
+    "lat": 29.8933,
+    "lng": -95.6065
+  },
+  {
+    "id": "596807aa55e0041036e208d8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Conjurica",
+    "lat": 29.1753,
+    "lng": -95.8794
+  },
+  {
+    "id": "596807aae4904e8c425f2bec",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Hairport",
+    "lat": 29.0729,
+    "lng": -95.563
+  },
+  {
+    "id": "596807aa152517bd5c73ad67",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Cipromox",
+    "lat": 29.3641,
+    "lng": -95.5808
+  },
+  {
+    "id": "596807aa6d5348b147c4bf37",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Fiberox",
+    "lat": 29.6691,
+    "lng": -95.5936
+  },
+  {
+    "id": "596807aae2a1a10922b3b295",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Macronaut",
+    "lat": 29.2767,
+    "lng": -95.2122
+  },
+  {
+    "id": "596807aa3e6bcf9f0d6eeb8f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Digifad",
+    "lat": 29.8956,
+    "lng": -95.3653
+  },
+  {
+    "id": "596807aa24903703cc0be3d4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Sealoud",
+    "lat": 29.0181,
+    "lng": -95.3042
+  },
+  {
+    "id": "596807aa46c8c0e912ea8b97",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Extremo",
+    "lat": 29.1813,
+    "lng": -95.0628
+  },
+  {
+    "id": "596807aa691c60bb0df2e0f2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Exoplode",
+    "lat": 29.7581,
+    "lng": -95.3306
+  },
+  {
+    "id": "596807aaa203ef5e3ab74986",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Eclipto",
+    "lat": 29.157,
+    "lng": -95.4473
+  },
+  {
+    "id": "596807aab56562abc40e96ee",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Olucore",
+    "lat": 29.6843,
+    "lng": -95.35
+  },
+  {
+    "id": "596807aa5b82a7408bbb6e4a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Petigems",
+    "lat": 29.0665,
+    "lng": -95.3165
+  },
+  {
+    "id": "596807aa559158f7bb3f8ad2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Idealis",
+    "lat": 29.774,
+    "lng": -95.6947
+  },
+  {
+    "id": "596807aab6b695912baf50d4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Xanide",
+    "lat": 29.2137,
+    "lng": -95.4271
+  },
+  {
+    "id": "596807aad71349cf84ec8613",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Gracker",
+    "lat": 29.0324,
+    "lng": -95.3901
+  },
+  {
+    "id": "596807aa3077bb3965e9b1da",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Renovize",
+    "lat": 29.5807,
+    "lng": -95.6137
+  },
+  {
+    "id": "596807aaac07e2a8634e55f1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Shepard",
+    "lat": 29.7003,
+    "lng": -95.6762
+  },
+  {
+    "id": "596807aa2cdbaf89b97c6241",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Scenty",
+    "lat": 29.0721,
+    "lng": -95.5472
+  },
+  {
+    "id": "596807aa20575b60fd7a7506",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zyple",
+    "lat": 29.5159,
+    "lng": -95.8528
+  },
+  {
+    "id": "596807aab5cad8e356c706bd",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Collaire",
+    "lat": 29.2398,
+    "lng": -95.735
+  },
+  {
+    "id": "596807aa2dea8348dba2b86d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Dancerity",
+    "lat": 29.0062,
+    "lng": -95.2659
+  },
+  {
+    "id": "596807aad5b86bae514cd9df",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Ovium",
+    "lat": 29.2287,
+    "lng": -95.0992
+  },
+  {
+    "id": "596807aaf6e5bb7a9ae93ad4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Vetron",
+    "lat": 29.2826,
+    "lng": -95.2303
+  },
+  {
+    "id": "596807aad518e65aec861a67",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Spacewax",
+    "lat": 29.522,
+    "lng": -95.6099
+  },
+  {
+    "id": "596807aa5bb9d2055ab250f2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Vitricomp",
+    "lat": 29.0373,
+    "lng": -95.7755
+  },
+  {
+    "id": "596807aa1c3f8639252b4545",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Centrexin",
+    "lat": 29.8666,
+    "lng": -95.5116
+  },
+  {
+    "id": "596807aac1c2fcdac2ebdcb8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Geostele",
+    "lat": 29.1376,
+    "lng": -95.0349
+  },
+  {
+    "id": "596807aa358f8828706c346e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Centree",
+    "lat": 29.7561,
+    "lng": -95.3595
+  },
+  {
+    "id": "596807aa4e41cda188873747",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Accuprint",
+    "lat": 29.836,
+    "lng": -95.6533
+  },
+  {
+    "id": "596807aa8c3e7ce35cad183e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Animalia",
+    "lat": 29.5028,
+    "lng": -95.8731
+  },
+  {
+    "id": "596807aa8de5487ff771f28a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Telequiet",
+    "lat": 29.2633,
+    "lng": -95.0851
+  },
+  {
+    "id": "596807aa64e27e354b8f6730",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Geekola",
+    "lat": 29.3451,
+    "lng": -95.5735
+  },
+  {
+    "id": "596807aa27c2c018cf44033a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Acrodance",
+    "lat": 29.5503,
+    "lng": -95.5452
+  },
+  {
+    "id": "596807aad50b5e6d7bc47d88",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Waretel",
+    "lat": 29.1191,
+    "lng": -95.236
+  },
+  {
+    "id": "596807aa956bb85ba0ad6061",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Joviold",
+    "lat": 29.6109,
+    "lng": -95.2018
+  },
+  {
+    "id": "596807aa57bbb4a1f7a99875",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Codact",
+    "lat": 29.6875,
+    "lng": -95.4382
+  },
+  {
+    "id": "596807aaacc880963e639f58",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Extro",
+    "lat": 29.2768,
+    "lng": -95.2985
+  },
+  {
+    "id": "596807aa722eec071d020bf9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Diginetic",
+    "lat": 29.3788,
+    "lng": -95.0323
+  },
+  {
+    "id": "596807aa3fe98c77aec40c35",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Billmed",
+    "lat": 29.8898,
+    "lng": -95.453
+  },
+  {
+    "id": "596807aae5005b5e5d24a07a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Urbanshee",
+    "lat": 29.7593,
+    "lng": -95.6095
+  },
+  {
+    "id": "596807aac35657f85304a745",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Nurplex",
+    "lat": 29.4478,
+    "lng": -95.1427
+  },
+  {
+    "id": "596807aadde5233b55736872",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Orbixtar",
+    "lat": 29.3483,
+    "lng": -95.8468
+  },
+  {
+    "id": "596807aafeff3105814dec25",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Volax",
+    "lat": 29.5971,
+    "lng": -95.8109
+  },
+  {
+    "id": "596807aa1cbd0e5cf8a36c90",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Accupharm",
+    "lat": 29.1694,
+    "lng": -95.4854
+  },
+  {
+    "id": "596807aa13bf1d72d11dbe91",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Ramjob",
+    "lat": 29.7517,
+    "lng": -95.3886
+  },
+  {
+    "id": "596807aa70a1373b95191b1e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Portalis",
+    "lat": 29.3763,
+    "lng": -95.8331
+  },
+  {
+    "id": "596807aa7775b51ae4c3ee11",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Candecor",
+    "lat": 29.3314,
+    "lng": -95.5952
+  },
+  {
+    "id": "596807aaab72fd52c31e8484",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Micronaut",
+    "lat": 29.6494,
+    "lng": -95.763
+  },
+  {
+    "id": "596807aaf06c8b7737acf3dd",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Amtas",
+    "lat": 29.4455,
+    "lng": -95.8855
+  },
+  {
+    "id": "596807aa45bd1849a0e5b895",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Pyrami",
+    "lat": 29.1083,
+    "lng": -95.8175
+  },
+  {
+    "id": "596807aa4412d3c74f6b3d21",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Xumonk",
+    "lat": 29.0897,
+    "lng": -95.8319
+  },
+  {
+    "id": "596807aa6c9434592b7e71a0",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zedalis",
+    "lat": 29.2877,
+    "lng": -95.7097
+  },
+  {
+    "id": "596807aa1e80c0276d55ece5",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Kidgrease",
+    "lat": 29.5075,
+    "lng": -95.5081
+  },
+  {
+    "id": "596807aa05a856d6a83d52d2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Intergeek",
+    "lat": 29.7458,
+    "lng": -95.726
+  },
+  {
+    "id": "596807aae96044b5b9e2f2eb",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Omatom",
+    "lat": 29.2999,
+    "lng": -95.1171
+  },
+  {
+    "id": "596807aa1c0efb3e387c59ab",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Marqet",
+    "lat": 29.8812,
+    "lng": -95.071
+  },
+  {
+    "id": "596807aa35a34f27e9766908",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Datagene",
+    "lat": 29.2597,
+    "lng": -95.6034
+  },
+  {
+    "id": "596807aac47bba1d19263539",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Geekology",
+    "lat": 29.7328,
+    "lng": -95.859
+  },
+  {
+    "id": "596807aa52833fee5aa333ca",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Virva",
+    "lat": 29.103,
+    "lng": -95.647
+  },
+  {
+    "id": "596807aa54c57b9b04efc3a1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Exoswitch",
+    "lat": 29.3686,
+    "lng": -95.765
+  },
+  {
+    "id": "596807aaa0827160fe2ab1f2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zilla",
+    "lat": 29.4051,
+    "lng": -95.794
+  },
+  {
+    "id": "596807aaa73c6b644a9dfdd1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Codax",
+    "lat": 29.5246,
+    "lng": -95.1163
+  },
+  {
+    "id": "596807aaab8d53e8b2bd1c26",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Interloo",
+    "lat": 29.788,
+    "lng": -95.0988
+  },
+  {
+    "id": "596807aa7727c030cccbdb60",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Fuelton",
+    "lat": 29.3005,
+    "lng": -95.0792
+  },
+  {
+    "id": "596807aa3e5f4952286401ae",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Undertap",
+    "lat": 29.4667,
+    "lng": -95.4034
+  },
+  {
+    "id": "596807aafb47836c8db5fb3a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Nexgene",
+    "lat": 29.6169,
+    "lng": -95.0893
+  },
+  {
+    "id": "596807aa565eca195299223c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Enormo",
+    "lat": 29.7794,
+    "lng": -95.7801
+  },
+  {
+    "id": "596807aa12f07a1523cce223",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Letpro",
+    "lat": 29.1948,
+    "lng": -95.0594
+  },
+  {
+    "id": "596807aa92d3f165357ad2de",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Remold",
+    "lat": 29.3659,
+    "lng": -95.0415
+  },
+  {
+    "id": "596807aa6f8c8ed5d4ba3d1b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Geekfarm",
+    "lat": 29.4294,
+    "lng": -95.7677
+  },
+  {
+    "id": "596807aa4e00b9af62866e6a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Oatfarm",
+    "lat": 29.8545,
+    "lng": -95.4989
+  },
+  {
+    "id": "596807aa7971771eacfca1ef",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Frenex",
+    "lat": 29.0859,
+    "lng": -95.2517
+  },
+  {
+    "id": "596807aa5d6d5b1f5497e295",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Strezzo",
+    "lat": 29.6123,
+    "lng": -95.6448
+  },
+  {
+    "id": "596807aa8ccb892b71cd4580",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Chorizon",
+    "lat": 29.4482,
+    "lng": -95.3195
+  },
+  {
+    "id": "596807aa8be1fc3d0447f76b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Orbaxter",
+    "lat": 29.7524,
+    "lng": -95.2622
+  },
+  {
+    "id": "596807aa990a48b2cfb6a3fa",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Quordate",
+    "lat": 29.5908,
+    "lng": -95.1997
+  },
+  {
+    "id": "596807aaa3e702d0fabd5b54",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Fibrodyne",
+    "lat": 29.6804,
+    "lng": -95.3914
+  },
+  {
+    "id": "596807aaecb0450be46ffd4a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Exerta",
+    "lat": 29.3053,
+    "lng": -95.6872
+  },
+  {
+    "id": "596807aac0af577dae190d2e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Dymi",
+    "lat": 29.5499,
+    "lng": -95.19
+  },
+  {
+    "id": "596807aa9a3046bc0d2e432d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Multron",
+    "lat": 29.2319,
+    "lng": -95.535
+  },
+  {
+    "id": "596807aa2c7396015f0d4894",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Qiao",
+    "lat": 29.1071,
+    "lng": -95.3502
+  },
+  {
+    "id": "596807aa16d7a93ef4de237e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Wrapture",
+    "lat": 29.0185,
+    "lng": -95.1924
+  },
+  {
+    "id": "596807aab84b77a5fb799d31",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Qualitex",
+    "lat": 29.6985,
+    "lng": -95.3427
+  },
+  {
+    "id": "596807aa5257de8366ed7673",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Yurture",
+    "lat": 29.6573,
+    "lng": -95.0136
+  },
+  {
+    "id": "596807aa187f28c53ebf9f8d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Cemention",
+    "lat": 29.5699,
+    "lng": -95.4552
+  },
+  {
+    "id": "596807aa5f623665008912a7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Bitendrex",
+    "lat": 29.5449,
+    "lng": -95.7027
+  },
+  {
+    "id": "596807aab64e23c42bff19d4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Imperium",
+    "lat": 29.3986,
+    "lng": -95.2164
+  },
+  {
+    "id": "596807aa7b8c64acb31c4f83",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Slax",
+    "lat": 29.3732,
+    "lng": -95.3372
+  },
+  {
+    "id": "596807aa2d1c93a9f9d2ca71",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Waab",
+    "lat": 29.3996,
+    "lng": -95.399
+  },
+  {
+    "id": "596807aa1034d2a7cd837996",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Exospeed",
+    "lat": 29.3059,
+    "lng": -95.4035
+  },
+  {
+    "id": "596807aa0b8f51a6d061e3fd",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Kegular",
+    "lat": 29.8431,
+    "lng": -95.1422
+  },
+  {
+    "id": "596807aa99244887de502e79",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Filodyne",
+    "lat": 29.2405,
+    "lng": -95.4149
+  },
+  {
+    "id": "596807aa3919be6e882f2318",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Kangle",
+    "lat": 29.6323,
+    "lng": -95.1632
+  },
+  {
+    "id": "596807aa03ba65535c31a02b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Noralex",
+    "lat": 29.1025,
+    "lng": -95.207
+  },
+  {
+    "id": "596807aa7c00644d62730ee3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zomboid",
+    "lat": 29.8562,
+    "lng": -95.03
+  },
+  {
+    "id": "596807aae45b29ab9a7dfc38",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Columella",
+    "lat": 29.4671,
+    "lng": -95.1284
+  },
+  {
+    "id": "596807aaad8064a7fbb69981",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Imkan",
+    "lat": 29.031,
+    "lng": -95.6599
+  },
+  {
+    "id": "596807aa0653d685671137cc",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Tersanki",
+    "lat": 29.6141,
+    "lng": -95.3212
+  },
+  {
+    "id": "596807aab3a7777c39664a27",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Dragbot",
+    "lat": 29.872,
+    "lng": -95.5147
+  },
+  {
+    "id": "596807aab8dd453e4ca64933",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Minga",
+    "lat": 29.276,
+    "lng": -95.773
+  },
+  {
+    "id": "596807aa720e500fd3660a62",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Bitrex",
+    "lat": 29.4262,
+    "lng": -95.2806
+  },
+  {
+    "id": "596807aa05d2c2a1491f1fda",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Helixo",
+    "lat": 29.1081,
+    "lng": -95.3051
+  },
+  {
+    "id": "596807aaa159d0a5effe1602",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Fanfare",
+    "lat": 29.0687,
+    "lng": -95.4665
+  },
+  {
+    "id": "596807aab87da95c6d851ead",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Isodrive",
+    "lat": 29.6995,
+    "lng": -95.7466
+  },
+  {
+    "id": "596807aa1ebadd945b308e25",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Chillium",
+    "lat": 29.8067,
+    "lng": -95.7822
+  },
+  {
+    "id": "596807aa40e14537bd392cf1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Biolive",
+    "lat": 29.5838,
+    "lng": -95.2418
+  },
+  {
+    "id": "596807aaed0d3aa97f95f786",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Xsports",
+    "lat": 29.2715,
+    "lng": -95.5444
+  },
+  {
+    "id": "596807aa2e485ad4d90cd681",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Enjola",
+    "lat": 29.6608,
+    "lng": -95.0407
+  },
+  {
+    "id": "596807aa70f3bb41bb07bf6c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Flum",
+    "lat": 29.4595,
+    "lng": -95.8809
+  },
+  {
+    "id": "596807aa9dc3ee9b1eb5e068",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Eyeris",
+    "lat": 29.1705,
+    "lng": -95.6233
+  },
+  {
+    "id": "596807aaa15c7bac3f7adf8e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Slambda",
+    "lat": 29.008,
+    "lng": -95.8616
+  },
+  {
+    "id": "596807aaae06a81eabfa1459",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Isonus",
+    "lat": 29.6145,
+    "lng": -95.2223
+  },
+  {
+    "id": "596807aae341c1854238e176",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Snips",
+    "lat": 29.3045,
+    "lng": -95.3921
+  },
+  {
+    "id": "596807aaf66e273b10cb686d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zolavo",
+    "lat": 29.1169,
+    "lng": -95.341
+  },
+  {
+    "id": "596807aa4f3bb3317c136483",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Quilm",
+    "lat": 29.5158,
+    "lng": -95.3943
+  },
+  {
+    "id": "596807aaeed0f8f30d13d74a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Geeknet",
+    "lat": 29.5971,
+    "lng": -95.811
+  },
+  {
+    "id": "596807aa1937cc72920dca9b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Corecom",
+    "lat": 29.328,
+    "lng": -95.2518
+  },
+  {
+    "id": "596807aa8110ccfbcecb0b3c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Organica",
+    "lat": 29.6323,
+    "lng": -95.1781
+  },
+  {
+    "id": "596807aa9f3e35273f74a92a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Pivitol",
+    "lat": 29.5548,
+    "lng": -95.8002
+  },
+  {
+    "id": "596807aac69c62acd5a5b068",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Hyplex",
+    "lat": 29.7879,
+    "lng": -95.7883
+  },
+  {
+    "id": "596807aa77407fb93dee18d0",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Hopeli",
+    "lat": 29.7538,
+    "lng": -95.7847
+  },
+  {
+    "id": "596807aa7b121360cf11fbb4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Hometown",
+    "lat": 29.1184,
+    "lng": -95.243
+  },
+  {
+    "id": "596807aa0047812d870046ff",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Digique",
+    "lat": 29.2338,
+    "lng": -95.8485
+  },
+  {
+    "id": "596807aaefaac12cd1ae406a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Visualix",
+    "lat": 29.2214,
+    "lng": -95.1772
+  },
+  {
+    "id": "596807aadc0d906b453ea713",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Aquoavo",
+    "lat": 29.1822,
+    "lng": -95.0549
+  },
+  {
+    "id": "596807aa37863a23c0aed1c8",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zenolux",
+    "lat": 29.8975,
+    "lng": -95.6989
+  },
+  {
+    "id": "596807aaa2681069057133f3",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Equitax",
+    "lat": 29.1743,
+    "lng": -95.8278
+  },
+  {
+    "id": "596807aa5d814a397391dfa8",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Makingway",
+    "lat": 29.4282,
+    "lng": -95.8098
+  },
+  {
+    "id": "596807aaad1f24a03529e295",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zanity",
+    "lat": 29.2666,
+    "lng": -95.6376
+  },
+  {
+    "id": "596807aa489f8018b26c9bc7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Valreda",
+    "lat": 29.0778,
+    "lng": -95.6497
+  },
+  {
+    "id": "596807aa483dc2a31e4f798c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Neocent",
+    "lat": 29.5751,
+    "lng": -95.682
+  },
+  {
+    "id": "596807aa47ed6f5f171e8ca9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Hydrocom",
+    "lat": 29.8415,
+    "lng": -95.7569
+  },
+  {
+    "id": "596807aa9655dfda3272dd5c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Digial",
+    "lat": 29.7681,
+    "lng": -95.6802
+  },
+  {
+    "id": "596807aa633811b133921bc2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Viagreat",
+    "lat": 29.3204,
+    "lng": -95.1381
+  },
+  {
+    "id": "596807aad3f199a54bb67bce",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Kiosk",
+    "lat": 29.5634,
+    "lng": -95.6928
+  },
+  {
+    "id": "596807aaac0ad438b2fb5af3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Caxt",
+    "lat": 29.7878,
+    "lng": -95.5002
+  },
+  {
+    "id": "596807aaa616888855acad5e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Earthpure",
+    "lat": 29.7664,
+    "lng": -95.7463
+  },
+  {
+    "id": "596807aa8bb694614bb7fedb",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Krag",
+    "lat": 29.4589,
+    "lng": -95.3731
+  },
+  {
+    "id": "596807aaf330c1ae5754f748",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Tripsch",
+    "lat": 29.1395,
+    "lng": -95.1771
+  },
+  {
+    "id": "596807aa5b80e4e1825043d6",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Lunchpod",
+    "lat": 29.5081,
+    "lng": -95.5384
+  },
+  {
+    "id": "596807aa515665888201043a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Ludak",
+    "lat": 29.2854,
+    "lng": -95.7044
+  },
+  {
+    "id": "596807aadea3448812ed8fc7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Qot",
+    "lat": 29.055,
+    "lng": -95.7221
+  },
+  {
+    "id": "596807aa1064b3b055933b8d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Stockpost",
+    "lat": 29.7628,
+    "lng": -95.8568
+  },
+  {
+    "id": "596807aad299449a73efedf8",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Avenetro",
+    "lat": 29.8812,
+    "lng": -95.8266
+  },
+  {
+    "id": "596807aa6635f327e14b7d12",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Frolix",
+    "lat": 29.8128,
+    "lng": -95.333
+  },
+  {
+    "id": "596807aa2de8268804c62e6c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Wazzu",
+    "lat": 29.5922,
+    "lng": -95.0857
+  },
+  {
+    "id": "596807aa3ca43f9bdaabb7f9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Overfork",
+    "lat": 29.7415,
+    "lng": -95.052
+  },
+  {
+    "id": "596807aa8629af8d66d351da",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Vixo",
+    "lat": 29.726,
+    "lng": -95.236
+  },
+  {
+    "id": "596807aa43a233d458301ed3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zepitope",
+    "lat": 29.3895,
+    "lng": -95.4764
+  },
+  {
+    "id": "596807aad7323da4a8133902",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Stelaecor",
+    "lat": 29.2953,
+    "lng": -95.0531
+  },
+  {
+    "id": "596807aae14e87a6d6bee17c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Octocore",
+    "lat": 29.5961,
+    "lng": -95.0221
+  },
+  {
+    "id": "596807aa013630cd3df3e0bd",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zillan",
+    "lat": 29.2761,
+    "lng": -95.1973
+  },
+  {
+    "id": "596807aadc383474229d952b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Norsul",
+    "lat": 29.5577,
+    "lng": -95.1575
+  },
+  {
+    "id": "596807aa8dd41083729e158d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Digitalus",
+    "lat": 29.3728,
+    "lng": -95.0943
+  },
+  {
+    "id": "596807aa724d54cf3d6bf284",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Printspan",
+    "lat": 29.2081,
+    "lng": -95.5028
+  },
+  {
+    "id": "596807aa4e7a59b2c252a08e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Securia",
+    "lat": 29.3325,
+    "lng": -95.0439
+  },
+  {
+    "id": "596807aa86be0df4c90281f0",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Orbalix",
+    "lat": 29.6005,
+    "lng": -95.5065
+  },
+  {
+    "id": "596807aa4062c48128fbfd00",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Comvene",
+    "lat": 29.348,
+    "lng": -95.7315
+  },
+  {
+    "id": "596807aae35d3b6b9acb2bf7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Polarium",
+    "lat": 29.6209,
+    "lng": -95.5567
+  },
+  {
+    "id": "596807aa1754593b352cb60f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Bezal",
+    "lat": 29.0157,
+    "lng": -95.1372
+  },
+  {
+    "id": "596807aae63adcd0d457acf5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Telepark",
+    "lat": 29.0021,
+    "lng": -95.2925
+  },
+  {
+    "id": "596807aa9200344b783bca75",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Sarasonic",
+    "lat": 29.2557,
+    "lng": -95.4172
+  },
+  {
+    "id": "596807aabb892c048ae55c37",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Songbird",
+    "lat": 29.6285,
+    "lng": -95.6816
+  },
+  {
+    "id": "596807aa6442bd9c46cb6fcd",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Digigene",
+    "lat": 29.2062,
+    "lng": -95.6814
+  },
+  {
+    "id": "596807aae95acba96842e446",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Enquility",
+    "lat": 29.3698,
+    "lng": -95.8005
+  },
+  {
+    "id": "596807aad1eb5a75604abce3",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Genmom",
+    "lat": 29.3487,
+    "lng": -95.7649
+  },
+  {
+    "id": "596807aa397e500b69b224bb",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Gonkle",
+    "lat": 29.1641,
+    "lng": -95.0334
+  },
+  {
+    "id": "596807aac4833fd1333d0f7f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Biotica",
+    "lat": 29.5339,
+    "lng": -95.7937
+  },
+  {
+    "id": "596807aae54656e1b46b7afa",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Eclipsent",
+    "lat": 29.0993,
+    "lng": -95.4349
+  },
+  {
+    "id": "596807aaa599bd18c01086e1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Earbang",
+    "lat": 29.2898,
+    "lng": -95.1717
+  },
+  {
+    "id": "596807aa4cc6d7efad073885",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Repetwire",
+    "lat": 29.1493,
+    "lng": -95.2001
+  },
+  {
+    "id": "596807aaff34bb49b896c91d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Quility",
+    "lat": 29.3329,
+    "lng": -95.1962
+  },
+  {
+    "id": "596807aae6fd3cbdadb519e1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Prosely",
+    "lat": 29.0587,
+    "lng": -95.784
+  },
+  {
+    "id": "596807aa5df5a1119624fee2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Voipa",
+    "lat": 29.46,
+    "lng": -95.404
+  },
+  {
+    "id": "596807aae1ce3d1187c04b18",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Assistia",
+    "lat": 29.2715,
+    "lng": -95.7016
+  },
+  {
+    "id": "596807aaac671c04613eb972",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Terascape",
+    "lat": 29.2279,
+    "lng": -95.624
+  },
+  {
+    "id": "596807aa11f07a4dc46d98ca",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Magnafone",
+    "lat": 29.3011,
+    "lng": -95.5311
+  },
+  {
+    "id": "596807aaa6d92f3ff9385c16",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Protodyne",
+    "lat": 29.4788,
+    "lng": -95.4775
+  },
+  {
+    "id": "596807aa55dc718c99574834",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Supportal",
+    "lat": 29.4524,
+    "lng": -95.3676
+  },
+  {
+    "id": "596807aadeb47fb8146c7248",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Cubicide",
+    "lat": 29.3769,
+    "lng": -95.5923
+  },
+  {
+    "id": "596807aace1051ba41b0ec94",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Globoil",
+    "lat": 29.7159,
+    "lng": -95.8065
+  },
+  {
+    "id": "596807aa3a51b244db5ae6bf",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Farmex",
+    "lat": 29.7652,
+    "lng": -95.5708
+  },
+  {
+    "id": "596807aa311c38294d34260f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zoarere",
+    "lat": 29.125,
+    "lng": -95.262
+  },
+  {
+    "id": "596807aa1db3470002f6bd23",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Architax",
+    "lat": 29.3584,
+    "lng": -95.738
+  },
+  {
+    "id": "596807aa46c431c7bbaca645",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zentry",
+    "lat": 29.4955,
+    "lng": -95.8653
+  },
+  {
+    "id": "596807aa32af27120d4f4c43",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Pyramia",
+    "lat": 29.8997,
+    "lng": -95.2872
+  },
+  {
+    "id": "596807aa73e74c765c621d01",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zboo",
+    "lat": 29.2177,
+    "lng": -95.4182
+  },
+  {
+    "id": "596807aa76f588b034a31e3d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Centice",
+    "lat": 29.6498,
+    "lng": -95.7369
+  },
+  {
+    "id": "596807aa670c3ebace62e4a6",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Fortean",
+    "lat": 29.8538,
+    "lng": -95.847
+  },
+  {
+    "id": "596807aadd2e800aa3c0e964",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Plasmosis",
+    "lat": 29.1191,
+    "lng": -95.4204
+  },
+  {
+    "id": "596807aadc473565a85f7fe4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Retrack",
+    "lat": 29.1662,
+    "lng": -95.1383
+  },
+  {
+    "id": "596807aadb22048b8f834fe7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zillidium",
+    "lat": 29.4589,
+    "lng": -95.3235
+  },
+  {
+    "id": "596807aac15e8fe2d28e13a1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Ezent",
+    "lat": 29.5748,
+    "lng": -95.8595
+  },
+  {
+    "id": "596807aa5af1d45c63b1a7d7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Ebidco",
+    "lat": 29.518,
+    "lng": -95.2064
+  },
+  {
+    "id": "596807aacf041675b89561a6",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Koffee",
+    "lat": 29.1228,
+    "lng": -95.6025
+  },
+  {
+    "id": "596807aa1fd8bf8332533d71",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Geeky",
+    "lat": 29.3481,
+    "lng": -95.4385
+  },
+  {
+    "id": "596807aa15c37ab406f6488e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Xiix",
+    "lat": 29.4967,
+    "lng": -95.0068
+  },
+  {
+    "id": "596807aa55f97bfb9a8f44c9",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Lovepad",
+    "lat": 29.5789,
+    "lng": -95.8665
+  },
+  {
+    "id": "596807aab956d96dd841d443",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Neptide",
+    "lat": 29.1891,
+    "lng": -95.461
+  },
+  {
+    "id": "596807aa6abb082dde2680be",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Ersum",
+    "lat": 29.0723,
+    "lng": -95.8013
+  },
+  {
+    "id": "596807aa325f68b15756a2d9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Portaline",
+    "lat": 29.8211,
+    "lng": -95.6955
+  },
+  {
+    "id": "596807aa3a5d9e3376d6554e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Endicil",
+    "lat": 29.2316,
+    "lng": -95.4523
+  },
+  {
+    "id": "596807aaf2348ef8205b4200",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Gronk",
+    "lat": 29.5182,
+    "lng": -95.6431
+  },
+  {
+    "id": "596807aa90cc7d03f6175fb5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Corpulse",
+    "lat": 29.5528,
+    "lng": -95.1742
+  },
+  {
+    "id": "596807aa4c5031bd9a312e82",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Aclima",
+    "lat": 29.6848,
+    "lng": -95.2154
+  },
+  {
+    "id": "596807aa515b4617428fcddc",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Eyewax",
+    "lat": 29.4856,
+    "lng": -95.0233
+  },
+  {
+    "id": "596807aa3fd072c64cbbda8a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Valpreal",
+    "lat": 29.7825,
+    "lng": -95.323
+  },
+  {
+    "id": "596807aa3595c8a94dbdcb9b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Navir",
+    "lat": 29.2603,
+    "lng": -95.827
+  },
+  {
+    "id": "596807aaf8ed6ddd02fd4e34",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Koogle",
+    "lat": 29.3153,
+    "lng": -95.8483
+  },
+  {
+    "id": "596807aa7d126b3ffa15cc5d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Dogspa",
+    "lat": 29.6567,
+    "lng": -95.8515
+  },
+  {
+    "id": "596807aace9853533ec99eac",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zensor",
+    "lat": 29.3668,
+    "lng": -95.1695
+  },
+  {
+    "id": "596807aa422020bd2f1ce688",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Eschoir",
+    "lat": 29.6916,
+    "lng": -95.129
+  },
+  {
+    "id": "596807aaa27cf25e0c147ef8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Coash",
+    "lat": 29.6349,
+    "lng": -95.6631
+  },
+  {
+    "id": "596807aa2e1e292b85614534",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Miraclis",
+    "lat": 29.0381,
+    "lng": -95.0697
+  },
+  {
+    "id": "596807aaaff28af5f07c9745",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Moreganic",
+    "lat": 29.8217,
+    "lng": -95.3885
+  },
+  {
+    "id": "596807aa8b4f2ccdd534b668",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Inear",
+    "lat": 29.1132,
+    "lng": -95.0701
+  },
+  {
+    "id": "596807aa15aed00f3eaf78c0",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Bedder",
+    "lat": 29.7626,
+    "lng": -95.3674
+  },
+  {
+    "id": "596807aaefee7869dc61fb4e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Quarx",
+    "lat": 29.2758,
+    "lng": -95.3343
+  },
+  {
+    "id": "596807aac6b9286b75af14ab",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Viasia",
+    "lat": 29.8113,
+    "lng": -95.0453
+  },
+  {
+    "id": "596807aaefd710695cb92f24",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Decratex",
+    "lat": 29.1099,
+    "lng": -95.0734
+  },
+  {
+    "id": "596807aab975a9fcc87fa4ee",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Ziggles",
+    "lat": 29.6054,
+    "lng": -95.3738
+  },
+  {
+    "id": "596807aa3061c0e793dce8fa",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Orbin",
+    "lat": 29.1403,
+    "lng": -95.6317
+  },
+  {
+    "id": "596807aa52468222fdaccd05",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Genekom",
+    "lat": 29.8335,
+    "lng": -95.8747
+  },
+  {
+    "id": "596807aa333f9f8224513711",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Gaptec",
+    "lat": 29.2482,
+    "lng": -95.3938
+  },
+  {
+    "id": "596807aa178603363750ce9b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Bluegrain",
+    "lat": 29.1467,
+    "lng": -95.2972
+  },
+  {
+    "id": "596807aaae0a57add825f306",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Phormula",
+    "lat": 29.2145,
+    "lng": -95.2002
+  },
+  {
+    "id": "596807aa0099192944ce2976",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Solgan",
+    "lat": 29.6649,
+    "lng": -95.874
+  },
+  {
+    "id": "596807aa8d83c411dccaca6e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Eventex",
+    "lat": 29.1814,
+    "lng": -95.5187
+  },
+  {
+    "id": "596807aa6eb65692225836d3",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Cablam",
+    "lat": 29.6266,
+    "lng": -95.8352
+  },
+  {
+    "id": "596807aa092c9af0acd07a81",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Twiggery",
+    "lat": 29.3434,
+    "lng": -95.6108
+  },
+  {
+    "id": "596807aaa07f2a9d417717b7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Tetak",
+    "lat": 29.0118,
+    "lng": -95.2263
+  },
+  {
+    "id": "596807aa9e9e681ae58b8f9b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Exospace",
+    "lat": 29.8494,
+    "lng": -95.4695
+  },
+  {
+    "id": "596807aa99f94793616da3ce",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Interfind",
+    "lat": 29.7977,
+    "lng": -95.0813
+  },
+  {
+    "id": "596807aacdae8895edd81012",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Comtrek",
+    "lat": 29.8349,
+    "lng": -95.035
+  },
+  {
+    "id": "596807aa2c8210f85eef15ec",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Tropolis",
+    "lat": 29.5944,
+    "lng": -95.6655
+  },
+  {
+    "id": "596807aae8f2a48eff6b23f5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Elemantra",
+    "lat": 29.5127,
+    "lng": -95.8944
+  },
+  {
+    "id": "596807aafd4aa8d170e9c4b4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Accufarm",
+    "lat": 29.7259,
+    "lng": -95.0805
+  },
+  {
+    "id": "596807aa0bb85785febfe068",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zipak",
+    "lat": 29.2092,
+    "lng": -95.3727
+  },
+  {
+    "id": "596807aa4be33d7e0aedf00c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zerology",
+    "lat": 29.753,
+    "lng": -95.3022
+  },
+  {
+    "id": "596807aa5ad810f74c6e4fe8",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Solaren",
+    "lat": 29.8361,
+    "lng": -95.1551
+  },
+  {
+    "id": "596807aa85bdc4d145ac57c0",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Providco",
+    "lat": 29.0308,
+    "lng": -95.3952
+  },
+  {
+    "id": "596807aaeba793de07784a93",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Xyqag",
+    "lat": 29.6987,
+    "lng": -95.1088
+  },
+  {
+    "id": "596807aa7514c363915365fe",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Slumberia",
+    "lat": 29.3297,
+    "lng": -95.015
+  },
+  {
+    "id": "596807aa493cb0dda4ded335",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Velity",
+    "lat": 29.8698,
+    "lng": -95.059
+  },
+  {
+    "id": "596807aa71b5eb6eeac32306",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Suremax",
+    "lat": 29.4691,
+    "lng": -95.1813
+  },
+  {
+    "id": "596807aaf297d040f80cb929",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Isologics",
+    "lat": 29.3992,
+    "lng": -95.6295
+  },
+  {
+    "id": "596807aaea5aa59898e7be29",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Comstar",
+    "lat": 29.8116,
+    "lng": -95.3943
+  },
+  {
+    "id": "596807aaf4ad87b3bccfa924",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Aquacine",
+    "lat": 29.7216,
+    "lng": -95.6538
+  },
+  {
+    "id": "596807aad008c4156dca365a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Geekol",
+    "lat": 29.8957,
+    "lng": -95.4379
+  },
+  {
+    "id": "596807aa7063314efb1ffe6d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Pigzart",
+    "lat": 29.6552,
+    "lng": -95.4306
+  },
+  {
+    "id": "596807aa86064f2045820b9d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Stucco",
+    "lat": 29.819,
+    "lng": -95.2698
+  },
+  {
+    "id": "596807aae2299ba62f3b803f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Kidstock",
+    "lat": 29.7468,
+    "lng": -95.0398
+  },
+  {
+    "id": "596807aa44634eddb6855a21",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Netplax",
+    "lat": 29.0331,
+    "lng": -95.0389
+  },
+  {
+    "id": "596807aad59e7031a90e2dd8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Mantro",
+    "lat": 29.0061,
+    "lng": -95.6742
+  },
+  {
+    "id": "596807aa0b72b57935a7e912",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Exovent",
+    "lat": 29.5171,
+    "lng": -95.5012
+  },
+  {
+    "id": "596807aa665beef34a2b6a4e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Datagen",
+    "lat": 29.4747,
+    "lng": -95.6889
+  },
+  {
+    "id": "596807aa5ea0fb79ba36d3dc",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zogak",
+    "lat": 29.1672,
+    "lng": -95.0803
+  },
+  {
+    "id": "596807aa249566eaaf45ecad",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Sureplex",
+    "lat": 29.237,
+    "lng": -95.8428
+  },
+  {
+    "id": "596807aa8c9d9d64f30f2175",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Egypto",
+    "lat": 29.5889,
+    "lng": -95.3763
+  },
+  {
+    "id": "596807aa97076521e4e10e7d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Flexigen",
+    "lat": 29.8879,
+    "lng": -95.4105
+  },
+  {
+    "id": "596807aa0e647928acded65d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zolar",
+    "lat": 29.6209,
+    "lng": -95.2064
+  },
+  {
+    "id": "596807aad8a9747fdce94b00",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Vertide",
+    "lat": 29.3655,
+    "lng": -95.4534
+  },
+  {
+    "id": "596807aac3c553da685c9d28",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Steeltab",
+    "lat": 29.8998,
+    "lng": -95.4236
+  },
+  {
+    "id": "596807aa425681f8b2dec36c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Ronelon",
+    "lat": 29.7629,
+    "lng": -95.452
+  },
+  {
+    "id": "596807aaca839bba507426c9",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Trasola",
+    "lat": 29.8396,
+    "lng": -95.0442
+  },
+  {
+    "id": "596807aa57b1e00c70de7302",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zillacon",
+    "lat": 29.8807,
+    "lng": -95.0283
+  },
+  {
+    "id": "596807aa6d964b706b8a1b5e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Kinetica",
+    "lat": 29.2385,
+    "lng": -95.407
+  },
+  {
+    "id": "596807aa11b6bc738dd1cffa",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Orbiflex",
+    "lat": 29.1703,
+    "lng": -95.3683
+  },
+  {
+    "id": "596807aa2558839a1850e70c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Rameon",
+    "lat": 29.4568,
+    "lng": -95.0179
+  },
+  {
+    "id": "596807aacff2f9367e7553c2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Speedbolt",
+    "lat": 29.389,
+    "lng": -95.1175
+  },
+  {
+    "id": "596807aa5d3183fc01d689eb",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Mobildata",
+    "lat": 29.3273,
+    "lng": -95.7429
+  },
+  {
+    "id": "596807aa42d1cb058f0b9030",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Aquazure",
+    "lat": 29.2699,
+    "lng": -95.0816
+  },
+  {
+    "id": "596807aae3a1d613b23d674d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Nimon",
+    "lat": 29.4059,
+    "lng": -95.2282
+  },
+  {
+    "id": "596807aa580d2c96df41a170",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Tubalum",
+    "lat": 29.1079,
+    "lng": -95.0731
+  },
+  {
+    "id": "596807aae8233d35b796aed6",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Autograte",
+    "lat": 29.8167,
+    "lng": -95.8594
+  },
+  {
+    "id": "596807aaf1ba3fa4cce8d469",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Comtent",
+    "lat": 29.455,
+    "lng": -95.3315
+  },
+  {
+    "id": "596807aaff89b926cd2916f7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Steelfab",
+    "lat": 29.2641,
+    "lng": -95.7857
+  },
+  {
+    "id": "596807aab8fb06c4451fe5d9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Ewaves",
+    "lat": 29.1747,
+    "lng": -95.0526
+  },
+  {
+    "id": "596807aa2309cfdc2e04131b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Imageflow",
+    "lat": 29.8727,
+    "lng": -95.6821
+  },
+  {
+    "id": "596807aaafc52dc50d112dc9",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zaphire",
+    "lat": 29.4265,
+    "lng": -95.5671
+  },
+  {
+    "id": "596807aa4be506e85c7a3578",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Insuron",
+    "lat": 29.2934,
+    "lng": -95.2513
+  },
+  {
+    "id": "596807aaa4643a94fbe52b30",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Knowlysis",
+    "lat": 29.412,
+    "lng": -95.5607
+  },
+  {
+    "id": "596807aa9e179e67c2f1a50d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Confrenzy",
+    "lat": 29.4822,
+    "lng": -95.2804
+  },
+  {
+    "id": "596807aac1e313d977e84a8b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Surelogic",
+    "lat": 29.6364,
+    "lng": -95.6938
+  },
+  {
+    "id": "596807aa3783c2d43133c84e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Freakin",
+    "lat": 29.3777,
+    "lng": -95.7745
+  },
+  {
+    "id": "596807aaff42c3d1f235b504",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Cormoran",
+    "lat": 29.4706,
+    "lng": -95.3464
+  },
+  {
+    "id": "596807aa22fdb555ce93220d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Dyno",
+    "lat": 29.6468,
+    "lng": -95.2031
+  },
+  {
+    "id": "596807aa0a085d7c4361f229",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Acusage",
+    "lat": 29.7136,
+    "lng": -95.1372
+  },
+  {
+    "id": "596807aa3e5a107e0e4814ad",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zidox",
+    "lat": 29.8168,
+    "lng": -95.0891
+  },
+  {
+    "id": "596807aa305d0bf760759900",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Entality",
+    "lat": 29.3252,
+    "lng": -95.6881
+  },
+  {
+    "id": "596807aa88ef46f83926b5aa",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Rotodyne",
+    "lat": 29.4729,
+    "lng": -95.1679
+  },
+  {
+    "id": "596807aa5e5c7eab15852490",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Asimiline",
+    "lat": 29.5609,
+    "lng": -95.8069
+  },
+  {
+    "id": "596807aa91ad5aae72ab3824",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Acumentor",
+    "lat": 29.0854,
+    "lng": -95.3355
+  },
+  {
+    "id": "596807aa18499364a5c6059d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Gadtron",
+    "lat": 29.4559,
+    "lng": -95.4587
+  },
+  {
+    "id": "596807aa0ce9866a218b350a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Ecstasia",
+    "lat": 29.1385,
+    "lng": -95.6764
+  },
+  {
+    "id": "596807aaf0e4e99b4d9d4f7c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zentia",
+    "lat": 29.8243,
+    "lng": -95.0069
+  },
+  {
+    "id": "596807aa5d4038f1778506a4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Omnigog",
+    "lat": 29.368,
+    "lng": -95.8467
+  },
+  {
+    "id": "596807aa1f81564e04604136",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Comvex",
+    "lat": 29.4724,
+    "lng": -95.6478
+  },
+  {
+    "id": "596807aa741083b90bfbfe57",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Cogentry",
+    "lat": 29.5963,
+    "lng": -95.646
+  },
+  {
+    "id": "596807aaee945e9b89c15bab",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Comveyer",
+    "lat": 29.2233,
+    "lng": -95.0684
+  },
+  {
+    "id": "596807aa647cf43519a18e05",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Obliq",
+    "lat": 29.5878,
+    "lng": -95.3951
+  },
+  {
+    "id": "596807aaf101e1e4e4dee7ee",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Aquasure",
+    "lat": 29.5091,
+    "lng": -95.5513
+  },
+  {
+    "id": "596807aa63657fb6735f7d17",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Comtours",
+    "lat": 29.2565,
+    "lng": -95.4338
+  },
+  {
+    "id": "596807aa73c9a49b51d8b8a9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Firewax",
+    "lat": 29.1556,
+    "lng": -95.5916
+  },
+  {
+    "id": "596807aaf4234416a13d9c5c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Kozgene",
+    "lat": 29.4031,
+    "lng": -95.4882
+  },
+  {
+    "id": "596807aadea5eb75528e0c8e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Quinex",
+    "lat": 29.4518,
+    "lng": -95.4021
+  },
+  {
+    "id": "596807aaa75e262aa14fb489",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Aquamate",
+    "lat": 29.2651,
+    "lng": -95.3136
+  },
+  {
+    "id": "596807aa9eec906a5e3e1f6e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Exozent",
+    "lat": 29.783,
+    "lng": -95.449
+  },
+  {
+    "id": "596807aa41364e92e5f71822",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Dentrex",
+    "lat": 29.1207,
+    "lng": -95.2479
+  },
+  {
+    "id": "596807aabf5332e4bcfdfcd3",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Gynk",
+    "lat": 29.5196,
+    "lng": -95.3027
+  },
+  {
+    "id": "596807aa61c81c8d698211be",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Incubus",
+    "lat": 29.4985,
+    "lng": -95.6618
+  },
+  {
+    "id": "596807aaa032548ff11ae68d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Sunclipse",
+    "lat": 29.0398,
+    "lng": -95.1849
+  },
+  {
+    "id": "596807aa1ea453bc5c874c4c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zentime",
+    "lat": 29.0988,
+    "lng": -95.8354
+  },
+  {
+    "id": "596807aa3b6d02e4498f2ad1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Prismatic",
+    "lat": 29.8136,
+    "lng": -95.7685
+  },
+  {
+    "id": "596807aa52a7b7044a0bc31b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Ecrater",
+    "lat": 29.3345,
+    "lng": -95.8777
+  },
+  {
+    "id": "596807aa036c56916753483a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Jamnation",
+    "lat": 29.4698,
+    "lng": -95.296
+  },
+  {
+    "id": "596807aa10b7c81fc789c2e5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Kaggle",
+    "lat": 29.5461,
+    "lng": -95.432
+  },
+  {
+    "id": "596807aa1958a53367ac9ff7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Brainclip",
+    "lat": 29.5747,
+    "lng": -95.6538
+  },
+  {
+    "id": "596807aa222f3cd2f2042450",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Geekular",
+    "lat": 29.0808,
+    "lng": -95.8091
+  },
+  {
+    "id": "596807aa95fb297a8ee70648",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Ecolight",
+    "lat": 29.4251,
+    "lng": -95.6277
+  },
+  {
+    "id": "596807aa9fc1605a993db3be",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Medesign",
+    "lat": 29.4252,
+    "lng": -95.233
+  },
+  {
+    "id": "596807aa2b602080ddfc973a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zilladyne",
+    "lat": 29.2611,
+    "lng": -95.1558
+  },
+  {
+    "id": "596807aa8108530786cfbb93",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Singavera",
+    "lat": 29.7926,
+    "lng": -95.2087
+  },
+  {
+    "id": "596807aa71c1f3ea87819f3e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Nipaz",
+    "lat": 29.083,
+    "lng": -95.1099
+  },
+  {
+    "id": "596807aa506de540e3b9d5f5",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Glasstep",
+    "lat": 29.3748,
+    "lng": -95.2023
+  },
+  {
+    "id": "596807aacc3b6067d625ac4a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Eventage",
+    "lat": 29.2233,
+    "lng": -95.7195
+  },
+  {
+    "id": "596807aa335ad3ef5df96a63",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Buzzopia",
+    "lat": 29.8529,
+    "lng": -95.5328
+  },
+  {
+    "id": "596807aa781bd53fd2c1b25d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Realysis",
+    "lat": 29.2417,
+    "lng": -95.6972
+  },
+  {
+    "id": "596807aad211f5003ec54028",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zilidium",
+    "lat": 29.3736,
+    "lng": -95.8883
+  },
+  {
+    "id": "596807aa3bbf1b168964ab3e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Gogol",
+    "lat": 29.8056,
+    "lng": -95.6242
+  },
+  {
+    "id": "596807aa497bc8241dfa7d55",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Emtrak",
+    "lat": 29.6703,
+    "lng": -95.4416
+  },
+  {
+    "id": "596807aa456d3ae3286cdce4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zosis",
+    "lat": 29.603,
+    "lng": -95.8009
+  },
+  {
+    "id": "596807aa64cce9bb81b39588",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Rodeology",
+    "lat": 29.7418,
+    "lng": -95.6341
+  },
+  {
+    "id": "596807aaf14241d5f45581d5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Shadease",
+    "lat": 29.7053,
+    "lng": -95.3318
+  },
+  {
+    "id": "596807aa58db2aeba2a2c52f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Quonata",
+    "lat": 29.7137,
+    "lng": -95.3707
+  },
+  {
+    "id": "596807aaf325f4ee2da8f53a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Nikuda",
+    "lat": 29.4061,
+    "lng": -95.2259
+  },
+  {
+    "id": "596807aa380875b6477f57b8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Talendula",
+    "lat": 29.2625,
+    "lng": -95.1717
+  },
+  {
+    "id": "596807aac52750cee9ff1d1b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Intradisk",
+    "lat": 29.5936,
+    "lng": -95.6891
+  },
+  {
+    "id": "596807aa4425be7eb8e13326",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Vidto",
+    "lat": 29.019,
+    "lng": -95.4523
+  },
+  {
+    "id": "596807aae96bee69b7438e07",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Venoflex",
+    "lat": 29.3011,
+    "lng": -95.426
+  },
+  {
+    "id": "596807aa876c8b6258895945",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zanymax",
+    "lat": 29.2823,
+    "lng": -95.4865
+  },
+  {
+    "id": "596807aaf82d8fbaf84bd4bb",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Permadyne",
+    "lat": 29.5647,
+    "lng": -95.0162
+  },
+  {
+    "id": "596807aaed1f9e5969b7b34c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Quantasis",
+    "lat": 29.6067,
+    "lng": -95.172
+  },
+  {
+    "id": "596807aa7b3a3381d35e97a1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Skybold",
+    "lat": 29.1615,
+    "lng": -95.2636
+  },
+  {
+    "id": "596807aa40cd2b6316b79fe0",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Callflex",
+    "lat": 29.7239,
+    "lng": -95.2532
+  },
+  {
+    "id": "596807aac5e8061ae17bdae8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Jimbies",
+    "lat": 29.5265,
+    "lng": -95.3932
+  },
+  {
+    "id": "596807aa7e356efcdcadd6f9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Nurali",
+    "lat": 29.7038,
+    "lng": -95.5379
+  },
+  {
+    "id": "596807aab9f71bec8cf5cfa7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Bristo",
+    "lat": 29.8994,
+    "lng": -95.7523
+  },
+  {
+    "id": "596807aa56908c7e355207ae",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Handshake",
+    "lat": 29.104,
+    "lng": -95.7563
+  },
+  {
+    "id": "596807aa1af16132d27c34b8",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Capscreen",
+    "lat": 29.054,
+    "lng": -95.8274
+  },
+  {
+    "id": "596807aa74a17321acd88ce5",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Tellifly",
+    "lat": 29.4884,
+    "lng": -95.7838
+  },
+  {
+    "id": "596807aab481e401bb9364e1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Moltonic",
+    "lat": 29.3312,
+    "lng": -95.0446
+  },
+  {
+    "id": "596807aa413ce194aec733f7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Insurity",
+    "lat": 29.75,
+    "lng": -95.3721
+  },
+  {
+    "id": "596807aa433d2e1019801d39",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Injoy",
+    "lat": 29.5184,
+    "lng": -95.7296
+  },
+  {
+    "id": "596807aaf7458dbbb468aa15",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Imaginart",
+    "lat": 29.8427,
+    "lng": -95.4484
+  },
+  {
+    "id": "596807aaf74baf62e287f549",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zytrek",
+    "lat": 29.678,
+    "lng": -95.4768
+  },
+  {
+    "id": "596807aaef9a4aac20d8d4d9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Keeg",
+    "lat": 29.8221,
+    "lng": -95.5272
+  },
+  {
+    "id": "596807aa054f4210da81d382",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Vurbo",
+    "lat": 29.3888,
+    "lng": -95.2276
+  },
+  {
+    "id": "596807aaddcef24a773a0f48",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zoinage",
+    "lat": 29.0455,
+    "lng": -95.6735
+  },
+  {
+    "id": "596807aac4c5a0c5cfecaa87",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Comtract",
+    "lat": 29.0134,
+    "lng": -95.7898
+  },
+  {
+    "id": "596807aa7d78aff3285aed9f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Duoflex",
+    "lat": 29.0316,
+    "lng": -95.4003
+  },
+  {
+    "id": "596807aa57cfa41eed310154",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Temorak",
+    "lat": 29.2482,
+    "lng": -95.4169
+  },
+  {
+    "id": "596807aab6f3b4089ef17376",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Infotrips",
+    "lat": 29.4877,
+    "lng": -95.8452
+  },
+  {
+    "id": "596807aac96f00f8b395d99e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Geekmosis",
+    "lat": 29.5259,
+    "lng": -95.5908
+  },
+  {
+    "id": "596807aacfe2daf61d0b2261",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Bedlam",
+    "lat": 29.5532,
+    "lng": -95.4548
+  },
+  {
+    "id": "596807aac91f02331b841631",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Arctiq",
+    "lat": 29.1534,
+    "lng": -95.6687
+  },
+  {
+    "id": "596807aa7423b3c173449238",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Comvoy",
+    "lat": 29.2925,
+    "lng": -95.1286
+  },
+  {
+    "id": "596807aae59a2daa552d577a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Talae",
+    "lat": 29.8768,
+    "lng": -95.3006
+  },
+  {
+    "id": "596807aa6268f7e8ec01516d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Podunk",
+    "lat": 29.3237,
+    "lng": -95.1714
+  },
+  {
+    "id": "596807aa0a0b71948ca5d092",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Fuelworks",
+    "lat": 29.1665,
+    "lng": -95.8499
+  },
+  {
+    "id": "596807aa7bb31bec2ab1c2d5",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Qimonk",
+    "lat": 29.3463,
+    "lng": -95.8867
+  },
+  {
+    "id": "596807aac36ae947dafc1310",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Reversus",
+    "lat": 29.4085,
+    "lng": -95.4587
+  },
+  {
+    "id": "596807aa7c90e52c41417e5b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Lyria",
+    "lat": 29.1936,
+    "lng": -95.8239
+  },
+  {
+    "id": "596807aa949dcb788fcbf59c",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Luxuria",
+    "lat": 29.029,
+    "lng": -95.0986
+  },
+  {
+    "id": "596807aaa68112ff6888fa7e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Pyramis",
+    "lat": 29.3696,
+    "lng": -95.441
+  },
+  {
+    "id": "596807aab0c3e84db7f3fb38",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Poshome",
+    "lat": 29.5694,
+    "lng": -95.8305
+  },
+  {
+    "id": "596807aa056368c47a2b93aa",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Entroflex",
+    "lat": 29.6769,
+    "lng": -95.0112
+  },
+  {
+    "id": "596807aabe114fbb1ca2b87a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Tetratrex",
+    "lat": 29.1197,
+    "lng": -95.2487
+  },
+  {
+    "id": "596807aa7ba59c7bb5963a35",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Pathways",
+    "lat": 29.0569,
+    "lng": -95.2661
+  },
+  {
+    "id": "596807aa4408d8c21ce90089",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Grupoli",
+    "lat": 29.8078,
+    "lng": -95.7239
+  },
+  {
+    "id": "596807aa92b5d0de534d3c8f",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zoxy",
+    "lat": 29.4278,
+    "lng": -95.4447
+  },
+  {
+    "id": "596807aa26ec02020bff5660",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Avit",
+    "lat": 29.648,
+    "lng": -95.4119
+  },
+  {
+    "id": "596807aa2d5a33a72589319c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Mondicil",
+    "lat": 29.652,
+    "lng": -95.7262
+  },
+  {
+    "id": "596807aa5bc54074b9b949b6",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zillar",
+    "lat": 29.89,
+    "lng": -95.7585
+  },
+  {
+    "id": "596807aa0003fe7d725d24da",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Schoolio",
+    "lat": 29.2774,
+    "lng": -95.8936
+  },
+  {
+    "id": "596807aa64e5cc6f8f541b61",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Zinca",
+    "lat": 29.567,
+    "lng": -95.664
+  },
+  {
+    "id": "596807aa374e6eed329cb42b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Updat",
+    "lat": 29.2558,
+    "lng": -95.5143
+  },
+  {
+    "id": "596807aa2f28e38c1895e030",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Cytrex",
+    "lat": 29.1867,
+    "lng": -95.4823
+  },
+  {
+    "id": "596807aaac830347f70ea7a7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Harmoney",
+    "lat": 29.461,
+    "lng": -95.3138
+  },
+  {
+    "id": "596807aa2fabdee16dbabbc3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Gazak",
+    "lat": 29.1484,
+    "lng": -95.4985
+  },
+  {
+    "id": "596807aa937280d3045b6424",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Netur",
+    "lat": 29.0685,
+    "lng": -95.0719
+  },
+  {
+    "id": "596807aaede51758e1cbf4ee",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Liquidoc",
+    "lat": 29.8529,
+    "lng": -95.0704
+  },
+  {
+    "id": "596807aa7395dcbf0fa02838",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Exosis",
+    "lat": 29.7906,
+    "lng": -95.2765
+  },
+  {
+    "id": "596807aa4709dd3c7fb48a97",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Kineticut",
+    "lat": 29.6286,
+    "lng": -95.5852
+  },
+  {
+    "id": "596807aa6442bdd7e1c54b90",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Comvey",
+    "lat": 29.5964,
+    "lng": -95.5925
+  },
+  {
+    "id": "596807aaea5b1bf7a550d05e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zolarity",
+    "lat": 29.273,
+    "lng": -95.4259
+  },
+  {
+    "id": "596807aa4cbcb47d6a59d186",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Gleamink",
+    "lat": 29.0682,
+    "lng": -95.0451
+  },
+  {
+    "id": "596807aabf395cbdb5feccc2",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Signidyne",
+    "lat": 29.5067,
+    "lng": -95.3843
+  },
+  {
+    "id": "596807aa43c6ea4f3b66ce76",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Bizmatic",
+    "lat": 29.7206,
+    "lng": -95.723
+  },
+  {
+    "id": "596807aa292218d819604e2a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Isopop",
+    "lat": 29.1434,
+    "lng": -95.8866
+  },
+  {
+    "id": "596807aa169753cadd29b1c3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Telpod",
+    "lat": 29.2547,
+    "lng": -95.155
+  },
+  {
+    "id": "596807aa0e8fc59e6a24ee3e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Eventix",
+    "lat": 29.4692,
+    "lng": -95.2084
+  },
+  {
+    "id": "596807aabdad8524b0f382a7",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Daido",
+    "lat": 29.5752,
+    "lng": -95.0967
+  },
+  {
+    "id": "596807aaccfe0ddee67355fe",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Suretech",
+    "lat": 29.4982,
+    "lng": -95.7927
+  },
+  {
+    "id": "596807aa3b4a111b6fc1093e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Playce",
+    "lat": 29.0473,
+    "lng": -95.875
+  },
+  {
+    "id": "596807aad7392b0538a4b248",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Techmania",
+    "lat": 29.4834,
+    "lng": -95.2012
+  },
+  {
+    "id": "596807aa65fce6f394f340c8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Qaboos",
+    "lat": 29.4197,
+    "lng": -95.1315
+  },
+  {
+    "id": "596807aa2f09a4da7fb8da87",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Mediot",
+    "lat": 29.6935,
+    "lng": -95.6171
+  },
+  {
+    "id": "596807aa7a31b2f69b646462",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Eargo",
+    "lat": 29.8571,
+    "lng": -95.2893
+  },
+  {
+    "id": "596807aa09357d231ac11234",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Escenta",
+    "lat": 29.2337,
+    "lng": -95.3287
+  },
+  {
+    "id": "596807aaccfe1ea6542a0799",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Momentia",
+    "lat": 29.419,
+    "lng": -95.0391
+  },
+  {
+    "id": "596807aaabf608c6118003b4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Musanpoly",
+    "lat": 29.4326,
+    "lng": -95.5352
+  },
+  {
+    "id": "596807aac2b87aaa3ff7a26b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Recognia",
+    "lat": 29.8616,
+    "lng": -95.216
+  },
+  {
+    "id": "596807aae2acc7565f1975a5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Springbee",
+    "lat": 29.5136,
+    "lng": -95.2258
+  },
+  {
+    "id": "596807aad3f3efb0567729c2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Anocha",
+    "lat": 29.296,
+    "lng": -95.8662
+  },
+  {
+    "id": "596807aa827ea6c0a9908c8b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Austech",
+    "lat": 29.3186,
+    "lng": -95.1417
+  },
+  {
+    "id": "596807aa9c0944defd307055",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Cuizine",
+    "lat": 29.3737,
+    "lng": -95.0366
+  },
+  {
+    "id": "596807aa402ce4b5fbbf5f8d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Jumpstack",
+    "lat": 29.3323,
+    "lng": -95.1092
+  },
+  {
+    "id": "596807aa97e95621c14bc3e6",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Matrixity",
+    "lat": 29.1119,
+    "lng": -95.1047
+  },
+  {
+    "id": "596807aaba44b3ef1dc60fc3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Insurety",
+    "lat": 29.778,
+    "lng": -95.6809
+  },
+  {
+    "id": "596807aa27a880c27fc9624c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Papricut",
+    "lat": 29.5491,
+    "lng": -95.3069
+  },
+  {
+    "id": "596807aa514cbe01a345a3df",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zorromop",
+    "lat": 29.5239,
+    "lng": -95.6458
+  },
+  {
+    "id": "596807aa60c27e72babfd458",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Accusage",
+    "lat": 29.0958,
+    "lng": -95.3446
+  },
+  {
+    "id": "596807aa16fc0d23e4896b1b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Ginkle",
+    "lat": 29.3545,
+    "lng": -95.253
+  },
+  {
+    "id": "596807aadacb154365143691",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Overplex",
+    "lat": 29.7683,
+    "lng": -95.2632
+  },
+  {
+    "id": "596807aa0c66c801a5f3c1df",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zoid",
+    "lat": 29.2483,
+    "lng": -95.1076
+  },
+  {
+    "id": "596807aa8ce8e5a8690043c4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Virxo",
+    "lat": 29.1628,
+    "lng": -95.8967
+  },
+  {
+    "id": "596807aabb476ff32e3f0046",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Bytrex",
+    "lat": 29.3344,
+    "lng": -95.8011
+  },
+  {
+    "id": "596807aa4f974ff6c31588a6",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zilphur",
+    "lat": 29.7202,
+    "lng": -95.2177
+  },
+  {
+    "id": "596807aabfe9d2eb5e144b53",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Hivedom",
+    "lat": 29.8097,
+    "lng": -95.1426
+  },
+  {
+    "id": "596807aabbbf083c7be5b0bd",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Oceanica",
+    "lat": 29.4667,
+    "lng": -95.6845
+  },
+  {
+    "id": "596807aa5f306b33b885de8e",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Retrotex",
+    "lat": 29.7515,
+    "lng": -95.6466
+  },
+  {
+    "id": "596807aa697645fdb7380f40",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Pharmacon",
+    "lat": 29.1484,
+    "lng": -95.8568
+  },
+  {
+    "id": "596807aab14caf244318a7df",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Webiotic",
+    "lat": 29.2457,
+    "lng": -95.2651
+  },
+  {
+    "id": "596807aab93dcd058f9ea507",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Vinch",
+    "lat": 29.6512,
+    "lng": -95.6345
+  },
+  {
+    "id": "596807aa0a626e4bab4122dc",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Barkarama",
+    "lat": 29.8563,
+    "lng": -95.2665
+  },
+  {
+    "id": "596807aabfa5d8f51d80de36",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Combogen",
+    "lat": 29.6518,
+    "lng": -95.1209
+  },
+  {
+    "id": "596807aa91d6db4107d59e9e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Phuel",
+    "lat": 29.3258,
+    "lng": -95.295
+  },
+  {
+    "id": "596807aa35be059376d07de8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Pholio",
+    "lat": 29.7228,
+    "lng": -95.0717
+  },
+  {
+    "id": "596807aa89f51663575fa796",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Ecratic",
+    "lat": 29.1259,
+    "lng": -95.0112
+  },
+  {
+    "id": "596807aaed20b19be313fe06",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Zidant",
+    "lat": 29.326,
+    "lng": -95.3703
+  },
+  {
+    "id": "596807aa7a89485467377713",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Calcula",
+    "lat": 29.5467,
+    "lng": -95.2728
+  },
+  {
+    "id": "596807aac86864955d1cd42b",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Comcur",
+    "lat": 29.801,
+    "lng": -95.8874
+  },
+  {
+    "id": "596807aa2cba65da1fb953a0",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zytrax",
+    "lat": 29.6833,
+    "lng": -95.0259
+  },
+  {
+    "id": "596807aa5c69e87361d00436",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Applideck",
+    "lat": 29.7327,
+    "lng": -95.6963
+  },
+  {
+    "id": "596807aa8afa86fdc3b7b062",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Immunics",
+    "lat": 29.0214,
+    "lng": -95.7126
+  },
+  {
+    "id": "596807aab95f5bcb4748587a",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Digigen",
+    "lat": 29.0631,
+    "lng": -95.7766
+  },
+  {
+    "id": "596807aa4b0e6783951311d6",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Cosmosis",
+    "lat": 29.5841,
+    "lng": -95.1025
+  },
+  {
+    "id": "596807aa8de2c601dfb62136",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Affluex",
+    "lat": 29.689,
+    "lng": -95.6405
+  },
+  {
+    "id": "596807aa655f8a6fb54c78f5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Assitia",
+    "lat": 29.712,
+    "lng": -95.4532
+  },
+  {
+    "id": "596807aab4df6c2faa871315",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Uxmox",
+    "lat": 29.3142,
+    "lng": -95.6839
+  },
+  {
+    "id": "596807aa107f2685079ba0a6",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Multiflex",
+    "lat": 29.0887,
+    "lng": -95.8021
+  },
+  {
+    "id": "596807aadb1f610286d04e8d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Inquala",
+    "lat": 29.1792,
+    "lng": -95.2515
+  },
+  {
+    "id": "596807aa6bcbff043947cd93",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Futuris",
+    "lat": 29.4644,
+    "lng": -95.7213
+  },
+  {
+    "id": "596807aafb148f0ddf98e723",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Paragonia",
+    "lat": 29.1307,
+    "lng": -95.7468
+  },
+  {
+    "id": "596807aa44683637ab0cbeb3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Satiance",
+    "lat": 29.7122,
+    "lng": -95.7307
+  },
+  {
+    "id": "596807aa1b255bb6a11743d9",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Zeam",
+    "lat": 29.4072,
+    "lng": -95.3246
+  },
+  {
+    "id": "596807aa2971b0f66bcf4261",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Techtrix",
+    "lat": 29.4573,
+    "lng": -95.1941
+  },
+  {
+    "id": "596807aaf9a8e3fb93c093bc",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Netagy",
+    "lat": 29.8146,
+    "lng": -95.3518
+  },
+  {
+    "id": "596807aa241391abee896189",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Vortexaco",
+    "lat": 29.2687,
+    "lng": -95.4172
+  },
+  {
+    "id": "596807aa846a6a676bb42c27",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Tourmania",
+    "lat": 29.0059,
+    "lng": -95.7707
+  },
+  {
+    "id": "596807aa9cc9f2afb50d4497",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Adornica",
+    "lat": 29.2677,
+    "lng": -95.1258
+  },
+  {
+    "id": "596807aa57b8b98c0660f9b2",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Imant",
+    "lat": 29.6101,
+    "lng": -95.4607
+  },
+  {
+    "id": "596807aaf14d37ad8b68d9a5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Acium",
+    "lat": 29.0828,
+    "lng": -95.6038
+  },
+  {
+    "id": "596807aa7478ec87f83320ef",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Softmicro",
+    "lat": 29.1143,
+    "lng": -95.5672
+  },
+  {
+    "id": "596807aae70cc6d4d09d5cb1",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Metroz",
+    "lat": 29.5013,
+    "lng": -95.6689
+  },
+  {
+    "id": "596807aa0fa2e1f3bd85b9e7",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Furnafix",
+    "lat": 29.1481,
+    "lng": -95.0919
+  },
+  {
+    "id": "596807aaf9d503d74fad6e0d",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Mangelica",
+    "lat": 29.8682,
+    "lng": -95.0925
+  },
+  {
+    "id": "596807aa58627511fe7d6741",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Boilcat",
+    "lat": 29.5523,
+    "lng": -95.3505
+  },
+  {
+    "id": "596807aa412176428b2438a4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Qnekt",
+    "lat": 29.5203,
+    "lng": -95.2333
+  },
+  {
+    "id": "596807aa27a9835d9eb09893",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Ultrasure",
+    "lat": 29.6646,
+    "lng": -95.2925
+  },
+  {
+    "id": "596807aa3930a5c71b3253a5",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Malathion",
+    "lat": 29.3068,
+    "lng": -95.6354
+  },
+  {
+    "id": "596807aa63223bf8eaf954b4",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Norsup",
+    "lat": 29.2591,
+    "lng": -95.7364
+  },
+  {
+    "id": "596807aa3645d2d121ae62c9",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Mazuda",
+    "lat": 29.6355,
+    "lng": -95.4769
+  },
+  {
+    "id": "596807aa5698dc7682e40433",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Sultraxin",
+    "lat": 29.3606,
+    "lng": -95.1812
+  },
+  {
+    "id": "596807aad401191c0e9ca1ee",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Hatology",
+    "lat": 29.2017,
+    "lng": -95.5486
+  },
+  {
+    "id": "596807aafc6f8b9975c70026",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Atgen",
+    "lat": 29.6661,
+    "lng": -95.2961
+  },
+  {
+    "id": "596807aa8f51c323e32d677a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Magneato",
+    "lat": 29.2605,
+    "lng": -95.6109
+  },
+  {
+    "id": "596807aa88dd34c774b42dfb",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Apexia",
+    "lat": 29.144,
+    "lng": -95.1884
+  },
+  {
+    "id": "596807aa6a03736d4d37f2a1",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Coriander",
+    "lat": 29.3016,
+    "lng": -95.6638
+  },
+  {
+    "id": "596807aa7257f40f59602461",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": false,
+    "company": "Assistix",
+    "lat": 29.4678,
+    "lng": -95.0613
+  },
+  {
+    "id": "596807aa3c1c7c2dd190d58f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Turnabout",
+    "lat": 29.1076,
+    "lng": -95.2488
+  },
+  {
+    "id": "596807aa1fa5e8cbfcfe6444",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Poochies",
+    "lat": 29.2277,
+    "lng": -95.4935
+  },
+  {
+    "id": "596807aa9778f7dc79a21926",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Magmina",
+    "lat": 29.2889,
+    "lng": -95.8388
+  },
+  {
+    "id": "596807aa047ac24ae2964f68",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Tropoli",
+    "lat": 29.5665,
+    "lng": -95.2734
+  },
+  {
+    "id": "596807aa687b40fbfb69d0d3",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Zaya",
+    "lat": 29.8681,
+    "lng": -95.3718
+  },
+  {
+    "id": "596807aa5515d219003e24a4",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Comverges",
+    "lat": 29.5828,
+    "lng": -95.0409
+  },
+  {
+    "id": "596807aa3999dd505d64871f",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Mantrix",
+    "lat": 29.052,
+    "lng": -95.2951
+  },
+  {
+    "id": "596807aaaf0aecf42373ca57",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Tsunamia",
+    "lat": 29.3551,
+    "lng": -95.2591
+  },
+  {
+    "id": "596807aaedf6c48171ab415d",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Unq",
+    "lat": 29.6058,
+    "lng": -95.6016
+  },
+  {
+    "id": "596807aa2822fee834254a4e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Oulu",
+    "lat": 29.3273,
+    "lng": -95.5785
+  },
+  {
+    "id": "596807aafc0321f68e5be24c",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Quilk",
+    "lat": 29.2398,
+    "lng": -95.8018
+  },
+  {
+    "id": "596807aa89c1b46354d0e11b",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Twiist",
+    "lat": 29.4433,
+    "lng": -95.4105
+  },
+  {
+    "id": "596807aa4f6e3c432835cf0a",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Ozean",
+    "lat": 29.3111,
+    "lng": -95.5175
+  },
+  {
+    "id": "596807aa970b831871fd42e8",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Polarax",
+    "lat": 29.5317,
+    "lng": -95.4136
+  },
+  {
+    "id": "596807aacc8b430a54f59eac",
+    "allowsOpenCarry": false,
+    "allowsConcealedCarry": true,
+    "company": "Buzzmaker",
+    "lat": 29.7801,
+    "lng": -95.8982
+  },
+  {
+    "id": "596807aaef42d4ffc5d1afbf",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Darwinium",
+    "lat": 29.1615,
+    "lng": -95.6039
+  },
+  {
+    "id": "596807aa3976c8cbd6c4413e",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": false,
+    "company": "Quilch",
+    "lat": 29.8517,
+    "lng": -95.6072
+  },
+  {
+    "id": "596807aad09c328844541b10",
+    "allowsOpenCarry": true,
+    "allowsConcealedCarry": true,
+    "company": "Sonique",
+    "lat": 29.2898,
+    "lng": -95.3086
   }
 ]

@@ -15,10 +15,11 @@ body {
 }
 
 .side-bar {
+  margin-top: 6%;
   background-color: black;
   border: 1px solid black;
   color: white;
-  height: 90%;
+  height: 50%;
   opacity: .8;
   padding-left: 20px;
   padding-right: 20px;
@@ -28,18 +29,78 @@ body {
   width: 15%;
 }
 
+.header-container {
+  margin-top: 30px;
+  display: flex;
+}
+
 .checkbox-item {
   font-size: 18px;
   font-family: 'Helvetica Neue';
   text-align: left;
 }
 
-.side-bar h2 {
+.checkbox-container {
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.side-bar p {
   margin-top: 0;
+  padding-left:10px;
+  font-size: 28px;
 }
 
 .fa-map-marker {
   font-size: 40px;
   color: red;
   padding-bottom: 0;
+}
+
+.add-location-btn {
+  border-radius: 4px;
+  background-color:#cbe6a3;
+  border: none;
+  padding: 10px;
+  width: 90%;
+  transition: all 0.5s;
+  text-align: center;
+  cursor: pointer;
+  font-size:24px;
+  color: black;
+  margin-left: 10px;
+}
+
+.add-location-btn span {
+  margin-top: 50px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.add-location-btn span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.add-location-btn:hover span {
+  padding-right: 25px;
+}
+
+.add-location-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.footer {
+  position:absolute;
+  background-color: black;
+  height: 5%;
+  width:100%;
+  color: white;
 }
