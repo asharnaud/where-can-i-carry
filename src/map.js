@@ -4,7 +4,6 @@ import './markerclusterer.js'
 import $ from './zepto-1.2.0.js'
 
 var companyObj = []
-var companyName = ''
 
 function fetchJSONdata (data) {
   data.forEach(function (item) {
@@ -28,19 +27,21 @@ function buildLocations () {
 }
 
 function buildInfoWindow () {
-  companyName = companyObj.company
-  console.log(companyName)
-  return companyName
+  var companyName = ''
+  var allowsOpenCarry = null
+  var allowsConcealedCarry = null
+  companyObj.forEach(function (item) {
+    companyName = item.company
+    allowsOpenCarry = item.allowsOpenCarry
+    allowsConcealedCarry = item.allowsConcealedCarry
+    contentString = '<h1 id="firstHeading" class="firstHeading">' + companyName + '</h1>' + '<div id="bodyContent">' +
+      '<p> Is Open Carry Allowed?</p>' + '<b>' + allowsOpenCarry + '</b>' +
+      '<p> Is Concealed Carry Allowed?</p>' + '<b>' + allowsConcealedCarry + '</b>' + '</div>'
+    return contentString
+  })
 }
 
-var contentString = '<div id="content">' +
-     '<div id="siteNotice">' +
-     '</div>' +
-     '<h1>' + companyName + '</h1>' +
-     '<div id="bodyContent">' +
-     '<p>This is the Info Window!</p>' +
-     '</div>' +
-     '</div>'
+var contentString = ''
 
 function initGMap () {
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -61,22 +62,21 @@ function initGMap () {
       position: location,
       animation: google.maps.Animation.DROP
     })
-})
-
-function addInfoWindowClick () {
-  markers.forEach(function (marker) {
-    marker.addListener('click', function () {
-       infowindow.open(map, marker)
-   })
   })
-}
 
-addInfoWindowClick()
+  function addInfoWindowClick () {
+    markers.forEach(function (marker) {
+      marker.addListener('click', function () {
+        infowindow.open(map, marker)
+      })
+    })
+  }
+
+  addInfoWindowClick()
 
   // Add a marker clusterer to manage the markers.
   var markerCluster = new MarkerClusterer(map, markers,
       {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
-
 }
 
 export default initGMap
