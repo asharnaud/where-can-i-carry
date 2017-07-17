@@ -9,11 +9,23 @@ function fetchJSONdata (data) {
   data.forEach(function (item) {
     companyObj.push({company: item.company, lat: item.lat, lng: item.lng, allowsOpenCarry: item.allowsOpenCarry, allowsConcealedCarry: item.allowsConcealedCarry})
   })
+  console.log('SUCCESS!')
   buildLocations()
   buildInfoWindow()
 }
 
-$.getJSON('../data/locations.json', fetchJSONdata)
+function handleError (error) {
+  console.log(error)
+}
+
+$.ajax({
+  type: 'GET',
+  url: '../data/locations.json',
+  // type of data we are expecting in return:
+  dataType: 'json',
+  success: fetchJSONdata,
+  error: handleError
+})
 
 var locations = []
 
