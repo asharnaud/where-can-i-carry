@@ -9,9 +9,12 @@ function fetchJSONdata (data) {
   data.forEach(function (item) {
     companyObj.push({company: item.company, lat: item.lat, lng: item.lng, allowsOpenCarry: item.allowsOpenCarry, allowsConcealedCarry: item.allowsConcealedCarry})
   })
-  console.log('SUCCESS!')
+  console.log(companyObj)
+  console.log('SUCCESS!!')
   buildLocations()
+  console.log('locations built')
   buildInfoWindow()
+  console.log('info built')
 }
 
 function handleError (error) {
@@ -83,7 +86,6 @@ function initGMap () {
       })
     })
   }
-
   addInfoWindowClick()
 
   // Add a marker clusterer to manage the markers.

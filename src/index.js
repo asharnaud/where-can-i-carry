@@ -3,6 +3,12 @@ import App from './App'
 import initGMap from './map'
 import './index.css'
 
+const initialState = {
+  classes: 'modal-hide'
+}
+
+let appState = initialState
+
 function startInfernoRenderLoop () {
   // TODO: write me
   render(<App />, document.getElementById('app'))
@@ -16,3 +22,5 @@ function globalInit () {
 window.addEventListener('load', globalInit)
 
 window.INIT_GMAP = initGMap
+
+export default appState
