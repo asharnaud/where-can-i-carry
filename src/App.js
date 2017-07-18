@@ -1,5 +1,5 @@
 import Component from 'inferno-component'
-import './App.css'
+import './index.css'
 import appState from './index.js'
 
 class App extends Component {
@@ -12,13 +12,13 @@ class App extends Component {
   }
 }
 
-function Modal (props) {
+function Modal (appState) {
   function showModal () {
-    props.classes = 'modal-show'
-    console.log(props.classes)
+    appState.classes = 'modal-show'
+    console.log(appState.classes)
   }
   function hideModal () {
-    props.classes = 'modal-hide'
+    appState.classes = 'modal-hide'
   }
   // var showClass = 'modal-show'
   // var hideClass = 'modal-hide'
@@ -32,7 +32,7 @@ function Modal (props) {
   return (
     <div>
       <button class='add-location-btn' onClick={showModal}><span>Add Location</span></button>
-      <div id='myModal' className={props.classes}>
+      <div id='myModal' className={appState.classes}>
         <div className='modal-content'>
           <div className='modal-header'>
             <span className='close' onClick={hideModal}>X</span>

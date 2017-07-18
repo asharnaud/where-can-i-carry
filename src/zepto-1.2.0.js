@@ -1,5 +1,5 @@
 /* global define */
-
+/* eslint-disable */
 // Zepto v1.2.0 - zepto event ajax form ie - zeptojs.com/license
 // NOTE: This file has been modified from v1.2.0
 // PR #1244 has been applied: https://github.com/madrobby/zepto/pull/1244
