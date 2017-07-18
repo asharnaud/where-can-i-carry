@@ -12,38 +12,55 @@ class App extends Component {
   }
 }
 
-function Modal (appstate) {
-  var modalClasses = appState.classes
-  console.log(modalClasses)
+function Modal (props) {
+  function showModal () {
+    props.classes = 'modal-show'
+    console.log(props.classes)
+  }
+  function hideModal () {
+    props.classes = 'modal-hide'
+  }
+  // var showClass = 'modal-show'
+  // var hideClass = 'modal-hide'
+  // function modalClasses () {
+  //   if (props.classes === hideClass) {
+  //     props.classes = showClass
+  //   } else {
+  //     props.classes = hideClass
+  //   }
+  // }
   return (
     <div>
-      <button id='myBtn' onClick={toggleClass}>Add Location</button>
-      <div id='myModal' className={modalClasses}>
+      <button class='add-location-btn' onClick={showModal}><span>Add Location</span></button>
+      <div id='myModal' className={props.classes}>
         <div className='modal-content'>
           <div className='modal-header'>
-            <span className='close'>&times;</span>
-            <h2>Modal Header</h2>
+            <span className='close' onClick={hideModal}>X</span>
+            <h2>Add Location Form</h2>
           </div>
           <div className='modal-body'>
-            <p>Some text in the Modal Body</p>
-            <p>Some other text...</p>
+            <form>
+              <label>
+              First Name:
+              <input type='text' name='fname' />
+              </label>
+              <label>
+              Last Name:
+              <input type='text' name='lname' />
+              </label>
+              <label>
+              Email:
+              <input type='text' email='email' />
+              </label>
+              <input type='submit' value='Submit' />
+            </form>
           </div>
           <div className='modal-footer'>
-            <h3>Modal Footer</h3>
           </div>
         </div>
       </div>
     </div>
   )
-}
-
-function toggleClass () {
-  console.log(appState.classes)
-  if (appState.classes === 'modal-hide') {
-    appState.classes = 'modal-show'
-  } else {
-    appState.classes = 'modal-hide'
-  }
 }
 
 export default App

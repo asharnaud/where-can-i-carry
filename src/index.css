@@ -72,7 +72,6 @@ body {
 }
 
 .add-location-btn span {
-  margin-top: 50px;
   cursor: pointer;
   display: inline-block;
   position: relative;
@@ -182,7 +181,10 @@ body {
     color: white;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+  padding: 2px 16px;
+  color: black;
+}
 
 .modal-footer {
     padding: 2px 16px;
