@@ -64,6 +64,11 @@ function initGMap () {
     center: {lat: 29.762589, lng: -95.364761}
   })
 
+  var map2 = new google.maps.Map(document.getElementById('map2'), {
+    zoom: 10,
+    center: {lat: 29.785237, lng: -95.421753}
+  })
+
   var infowindow = new google.maps.InfoWindow({
     content: contentString
   })

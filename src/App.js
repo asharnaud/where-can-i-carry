@@ -2,14 +2,12 @@ import Component from 'inferno-component'
 import './index.css'
 import appState from './index.js'
 
-class App extends Component {
-  render () {
-    return (
-      <div>
-        {Modal(appState)}
-      </div>
-    )
-  }
+function App () {
+  return (
+    <div>
+      {Modal(appState)}
+    </div>
+  )
 }
 
 function Modal (appState) {
@@ -20,23 +18,14 @@ function Modal (appState) {
   function hideModal () {
     appState.classes = 'modal-hide'
   }
-  // var showClass = 'modal-show'
-  // var hideClass = 'modal-hide'
-  // function modalClasses () {
-  //   if (props.classes === hideClass) {
-  //     props.classes = showClass
-  //   } else {
-  //     props.classes = hideClass
-  //   }
-  // }
   return (
     <div>
       <button class='add-location-btn' onClick={showModal}><span>Add Location</span></button>
-      <div id='myModal' className={appState.classes}>
+      <div className={appState.classes}>
         <div className='modal-content'>
+          <button className='close' onClick={hideModal}>Close</button>
           <div className='modal-header'>
-            <span className='close' onClick={hideModal}>X</span>
-            <h2>Add Location Form</h2>
+            <h2>Add Location</h2>
           </div>
           <div className='modal-body'>
             <form>
@@ -54,8 +43,8 @@ function Modal (appState) {
               </label>
               <input type='submit' value='Submit' />
             </form>
-          </div>
-          <div className='modal-footer'>
+            <div id='map2' className='add-location-map'>
+            </div>
           </div>
         </div>
       </div>

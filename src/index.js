@@ -4,15 +4,22 @@ import initGMap from './map'
 import './index.css'
 
 const initialState = {
-  classes: 'modal-hide'
+  classes: 'modal-hide',
+  fname: '',
+  lname: '',
+  email: ''
 }
 
 let appState = initialState
 
+const rootEl = document.getElementById('app')
+
 function startInfernoRenderLoop () {
-  // TODO: write me
-  render(<App />, document.getElementById('app'))
+  render(App(appState), rootEl)
+  window.requestAnimationFrame(startInfernoRenderLoop)
 }
+
+window.requestAnimationFrame(startInfernoRenderLoop)
 
 // entry point for the whole enchilada
 function globalInit () {
