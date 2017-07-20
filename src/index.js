@@ -40,6 +40,8 @@ window.requestAnimationFrame(InfernoRenderLoop)
 
 const GMAP_SCRIPT_URL = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC67l8WPqxwg_Acx1XMIfKR3_VEFHVlbyI&callback=window.GMAP_SCRIPT_LOADED'
 
+// Make sure the Google Maps script gets loaded after the bundle script.
+
 function injectGoogleMapScript () {
   let scriptEl = document.createElement('script')
   scriptEl.type = 'text/javascript'

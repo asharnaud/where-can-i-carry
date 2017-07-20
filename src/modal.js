@@ -3,6 +3,7 @@ import Forminputs from './form-inputs.js'
 import FormCheckboxes from './form-checkboxes.js'
 import mori from 'mori'
 import MoriComponent from './mori-component'
+import SecondMap from './second-map'
 
 function clickHideModal () {
   window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isModalShowing', false)
@@ -24,8 +25,8 @@ class Modal extends MoriComponent {
             <textarea rows='4' cols='50' />
           </div>
           <input className='submit-btn' type='submit' value='Submit' />
-          <div id='second-map' className='add-location-map' />
         </div>
+        <div><SecondMap imdata={this.props.imdata} /></div>
       </div>
     )
   }
