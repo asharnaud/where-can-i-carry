@@ -2,10 +2,6 @@ import './index.css'
 import mori from 'mori'
 import MoriComponent from './mori-component'
 
-function morilog (cljThing) {
-  console.log(mori.toJs(cljThing))
-}
-
 function clickShowModal () {
   window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isModalShowing', true)
 }

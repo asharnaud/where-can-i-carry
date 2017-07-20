@@ -5,12 +5,17 @@ import mori from 'mori'
 import MoriComponent from './mori-component'
 import SecondMap from './second-map'
 
+function morilog (cljThing) {
+  console.log(mori.toJs(cljThing))
+}
+
 function clickHideModal () {
   window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isModalShowing', false)
 }
 
 class Modal extends MoriComponent {
   render () {
+    morilog(this.props.imdata)
     return (
       <div className='modal-show'>
         <div className='modal-content'>
@@ -26,7 +31,7 @@ class Modal extends MoriComponent {
           </div>
           <input className='submit-btn' type='submit' value='Submit' />
         </div>
-        <div><SecondMap imdata={this.props.imdata} /></div>
+        <div><SecondMap imdata={true} /></div>
       </div>
     )
   }
