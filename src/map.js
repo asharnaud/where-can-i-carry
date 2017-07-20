@@ -3,99 +3,97 @@
 import './markerclusterer.js'
 import $ from './zepto-1.2.0.js'
 
-var companyObj = []
+let googleMapScriptLoaded = false
+let companyDataIsLoaded = false
+let theMap = null
+let mapMarkers = {}
+let markerCluster = null
+let markersArr = []
+let theInfoWindow = null
+let companies = {}
+let companiesObj = {}
 
-function fetchJSONdata (data) {
-  data.forEach(function (item) {
-    companyObj.push({company: item.company, lat: item.lat, lng: item.lng, allowsOpenCarry: item.allowsOpenCarry, allowsConcealedCarry: item.allowsConcealedCarry})
+function fetchCompanyDataSuccess (data) {
+  data.forEach(function (company) {
+    companiesObj[company.id] = company
   })
-  console.log(companyObj)
-  console.log('SUCCESS!!')
-  buildLocations()
-  console.log('locations built')
-  buildInfoWindow()
-  console.log('info built')
+
+  companyDataIsLoaded = true
+  initGMap()
 }
 
-function handleError (error) {
+function fetchCompanyDataError (error) {
   console.log(error)
 }
 
-$.ajax({
-  type: 'GET',
-  url: '../data/locations.json',
-  // type of data we are expecting in return:
-  dataType: 'json',
-  success: fetchJSONdata,
-  error: handleError
-})
-
-var locations = []
-
-function buildLocations () {
-  companyObj.map(function (obj) {
-    return locations.push({
-      lat: obj.lat,
-      lng: obj.lng
-    })
+function fetchCompanyData () {
+  $.ajax({
+    type: 'GET',
+    url: '../data/locations.json',
+    // type of data we are expecting in return:
+    dataType: 'json',
+    success: fetchCompanyDataSuccess,
+    error: fetchCompanyDataError
   })
 }
 
-function buildInfoWindow () {
-  var companyName = ''
-  var allowsOpenCarry = null
-  var allowsConcealedCarry = null
-  companyObj.forEach(function (item) {
-    companyName = item.company
-    allowsOpenCarry = item.allowsOpenCarry
-    allowsConcealedCarry = item.allowsConcealedCarry
-    contentString = '<h1 id="firstHeading" class="firstHeading">' + companyName + '</h1>' + '<div id="bodyContent">' +
-      '<p> Is Open Carry Allowed?</p>' + '<b>' + allowsOpenCarry + '</b>' +
-      '<p> Is Concealed Carry Allowed?</p>' + '<b>' + allowsConcealedCarry + '</b>' + '</div>'
-    return contentString
-  })
+function buildInfoWindow (company) {
+  var html = '<h1 id="firstHeading" class="firstHeading">' + company.company +
+  '</h1>' + '<div id="bodyContent">' + '<p> Is Open Carry Allowed?</p>' +
+  '<b>' + company.allowsOpenCarry + '</b>' + '<p> Is Concealed Carry Allowed?</p>' +
+  '<b>' + company.allowsConcealedCarry + '</b>' + '</div>'
+
+  return html
 }
 
-var contentString = ''
+const HOUSTON_LAT = 29.762589
+const HOUSTON_LNG = -95.364761
+const MAP_CENTER = {lat: HOUSTON_LAT, lng: HOUSTON_LNG}
 
-function initGMap () {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 11,
-    center: {lat: 29.762589, lng: -95.364761}
-  })
-
-  var map2 = new google.maps.Map(document.getElementById('map2'), {
-    zoom: 10,
-    center: {lat: 29.785237, lng: -95.421753}
-  })
-
-  var infowindow = new google.maps.InfoWindow({
-    content: contentString
-  })
-
-  // Add some markers to the map.
-  // Note: The code uses the JavaScript Array.prototype.map() method to
-  // create an array of markers based on a given "locations" array.
-  // The map() method here has nothing to do with the Google Maps API.
-  var markers = locations.map(function (location, i) {
-    return new google.maps.Marker({
-      position: location,
-      animation: google.maps.Animation.DROP
-    })
-  })
-
-  function addInfoWindowClick () {
-    markers.forEach(function (marker) {
-      marker.addListener('click', function () {
-        infowindow.open(map, marker)
-      })
+function clickMarker (companyId) {
+  if (!theInfoWindow) {
+    theInfoWindow = new google.maps.InfoWindow({
+      content: ''
     })
   }
-  addInfoWindowClick()
+  // - get the company
+  let company = companiesObj[companyId]
+  // - build the infoWindow HTML
+  var infoWindowHtml = buildInfoWindow(company)
+  theInfoWindow.setContent(infoWindowHtml)
+  // - show the infoWindow
+  var marker = mapMarkers[companyId]
+  theInfoWindow.open(theMap, marker)
+}
+
+function initGMap () {
+  // only initialize the map when both the company data is loaded and the
+  // google map script is loaded
+  if (!googleMapScriptLoaded || !companyDataIsLoaded) return
+
+  theMap = new google.maps.Map(document.getElementById('mapContainer'), {
+    zoom: 11,
+    center: MAP_CENTER
+  })
+
+  for (let id in companiesObj) {
+    if (!companiesObj.hasOwnProperty(id)) continue
+    let marker = new google.maps.Marker({
+      position: {lat: companiesObj[id].lat, lng: companiesObj[id].lng}
+    })
+    marker.addListener('click', clickMarker.bind(null, id))
+    markersArr.push(marker)
+    mapMarkers[id] = marker
+  }
 
   // Add a marker clusterer to manage the markers.
-  var markerCluster = new MarkerClusterer(map, markers,
+  markerCluster = new MarkerClusterer(theMap, mapMarkers,
       {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'})
 }
 
-export default initGMap
+window.GMAP_SCRIPT_LOADED = function () {
+  googleMapScriptLoaded = true
+  initGMap()
+}
+
+export { fetchCompanyData }
