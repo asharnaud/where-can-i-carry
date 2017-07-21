@@ -15,23 +15,28 @@ function clickHideModal () {
 
 class Modal extends MoriComponent {
   render () {
-    morilog(this.props.imdata)
+    let fname = mori.get(this.props.imdata, 'fname')
+    let lname = mori.get(this.props.imdata, 'lname')
+    let email = mori.get(this.props.imdata, 'email')
+    let inputMap = mori.hashMap('fname', fname, 'lname', lname, 'email', email)
+
+    morilog(inputMap)
     return (
       <div className='modal-show'>
         <div className='modal-content'>
-          <button className='close' onClick={clickHideModal}>Close</button>
+          <button className='close' onClick={clickHideModal}><i class='fa fa-times' aria-hidden='true'></i></button>
           <div className='modal-header'>
             <h2>Add Location</h2>
           </div>
           <div className='modal-body'>
-            <div>{Forminputs()}</div>
+            <div>{Forminputs(inputMap)}</div>
             <div>{FormCheckboxes()}</div>
             <p>Comments</p>
             <textarea rows='4' cols='50' />
           </div>
           <input className='submit-btn' type='submit' value='Submit' />
+          <div><SecondMap imdata={true} /></div>
         </div>
-        <div><SecondMap imdata={true} /></div>
       </div>
     )
   }

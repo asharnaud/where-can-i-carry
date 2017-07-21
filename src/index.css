@@ -165,7 +165,7 @@ body {
     border: 0px;
     color: white;
     float: right;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -198,12 +198,11 @@ body {
 
 .add-location-map {
   position: absolute;
-  right: 10px;
-  top: 100px;
+  right: 50px;
+  top: 75px;
   border: 2px solid black;
-  width: 50%;
-  height: 50vh;
-  float: right;
+  width: 40%;
+  height: 45vh;
 }
 .checkbox-item-2 {
   color: black;
@@ -227,6 +226,15 @@ body {
   padding: 1.2em 2.8em;
   text-align: center;
   text-decoration: none;
+}
+
+.the-autocomplete-box {
+  border: 1px solid black;
+  width: 30%;
+  height: 2vh;
+  float: right;
+  margin-top: 30px;
+  margin-right: 100px;
 }
 
 /*MENU*/

@@ -5,7 +5,7 @@ function Forminputs () {
     <form>
       <label>
       First Name
-      <input type='text' name='fname' />
+      <input type='text' value={window.NEXT_STATE.fname} name='fname' />
       </label>
       <label>
       Last Name
