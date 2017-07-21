@@ -32,7 +32,7 @@ class Modal extends MoriComponent {
             <h2>Add Location</h2>
           </div>
           <div className='modal-body'>
-            <div>{Forminputs(window.NEXT_STATE)}</div>
+            <div>{Forminputs(inputMap)}</div>
             <div>{FormCheckboxes()}</div>
             <p>Comments</p>
             <textarea rows='4' cols='50' />

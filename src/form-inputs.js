@@ -5,19 +5,18 @@ function morilog (cljThing) {
   console.log(mori.toJs(cljThing))
 }
 
-function handleChange (event) {
-  let value = event.target.value
-  value = window.NEXT_STATE.fname
+function updateFnameInput (event) {
+  window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'fname', event.target.value)
   console.log(event.target.value)
-  morilog(window.NEXT_STATE.fname)
+  morilog(window.NEXT_STATE)
 }
 
-function Forminputs () {
+function Forminputs (inputMap) {
   return (
     <form>
       <label>
       First Name
-      <input id='fname-input' type='text' value={window.NEXT_STATE.fname} onInput={handleChange} name='fname' />
+      <input id='fname-input' type='text' value={inputMap.fname} onInput={updateFnameInput} name='fname' />
       </label>
       <label>
       Last Name
