@@ -2,6 +2,7 @@
 
 import './markerclusterer.js'
 import $ from './zepto-1.2.0.js'
+import {GOOGLE_MAP_ID} from './constants.js'
 
 let googleMapScriptLoaded = false
 let companyDataIsLoaded = false
@@ -71,7 +72,7 @@ function initGMap () {
   // google map script is loaded
   if (!googleMapScriptLoaded || !companyDataIsLoaded) return
 
-  theMap = new google.maps.Map(document.getElementById('mapContainer'), {
+  theMap = new google.maps.Map(document.getElementById(GOOGLE_MAP_ID), {
     zoom: 11,
     center: MAP_CENTER
   })

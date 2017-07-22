@@ -20,10 +20,9 @@ function clickSubmitBtn () {
 
 class Modal extends MoriComponent {
   render () {
-    let fname = mori.get(this.props.imdata, 'fname')
-    let lname = mori.get(this.props.imdata, 'lname')
-    let email = mori.get(this.props.imdata, 'email')
-    let inputMap = mori.hashMap('fname', fname, 'lname', lname, 'email', email)
+    const emptyHashMap = mori.hashMap()
+    let formInputs = mori.get(this.props.imdata, 'newLocationForm')
+
     return (
       <div className='modal-show'>
         <div className='modal-content'>
@@ -32,13 +31,13 @@ class Modal extends MoriComponent {
             <h2>Add Location</h2>
           </div>
           <div className='modal-body'>
-            <div>{Forminputs(inputMap)}</div>
+            <div><Forminputs imdata={formInputs} /></div>
             <div>{FormCheckboxes()}</div>
             <p>Comments</p>
             <textarea rows='4' cols='50' />
           </div>
           <input className='submit-btn' type='submit' value='Submit' onClick={clickSubmitBtn} />
-          <div><SecondMap imdata={true} /></div>
+          <div><SecondMap imdata={emptyHashMap} /></div>
         </div>
       </div>
     )

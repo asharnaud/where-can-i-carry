@@ -7,9 +7,11 @@ import './index.css'
 const initialState = {
   isModalShowing: false,
   isMenuShowing: false,
-  fname: '',
-  lname: '',
-  email: ''
+  newLocationForm: {
+    fname: '',
+    lname: '',
+    email: ''
+  }
 }
 
 // CURRENT_STATE is always the current state of the application
