@@ -8,9 +8,11 @@ const initialState = {
   isModalShowing: false,
   isMenuShowing: false,
   newLocationForm: {
-    fname: '',
-    lname: '',
-    email: ''
+    name: '',
+    email: '',
+    restrictionType: null,
+    isValidSign: null,
+    comment: ''
   }
 }
 

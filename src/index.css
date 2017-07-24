@@ -208,6 +208,23 @@ body {
   font-size:20px;
 }
 
+.input-row input {
+  margin-left: 5px;
+  width: 20%;
+}
+
+.input-row {
+  margin-bottom: 10px;
+}
+
+.modal-checkbox-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.valid-container {
+  margin-bottom: 30px;
+}
+
 .add-location-map {
   position: absolute;
   right: 50px;
@@ -234,10 +251,11 @@ body {
   font-weight: 400;
   font-weight: 700;
   line-height: 1;
-  margin-top: 10px;
   padding: 1.2em 2.8em;
   text-align: center;
   text-decoration: none;
+  margin: 0;
+  padding-right: 0px;
 }
 
 .the-autocomplete-box {
@@ -245,7 +263,7 @@ body {
   width: 30%;
   height: 2vh;
   float: right;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-right: 100px;
 }
 

@@ -3,34 +3,31 @@ import mori from 'mori'
 import MoriComponent from './mori-component'
 import {morilog} from './util.js'
 
-function updateFnameInput (evt) {
-  const newFName = evt.target.value
-  window.NEXT_STATE = mori.assocIn(window.CURRENT_STATE, ['newLocationForm', 'fname'], newFName)
+function updateNameInput (evt) {
+  const newName = evt.target.value
+  window.NEXT_STATE = mori.assocIn(window.CURRENT_STATE, ['newLocationForm', 'name'], newName)
+}
 
-  morilog(window.NEXT_STATE)
+function updateEmailInput (evt) {
+  const newEmail = evt.target.value
+  window.NEXT_STATE = mori.assocIn(window.CURRENT_STATE, ['newLocationForm', 'email'], newEmail)
 }
 
 class Forminputs extends MoriComponent {
   render () {
-    const fname = mori.get(this.props.imdata, 'fname')
-    const lname = mori.get(this.props.imdata, 'lname')
+    const name = mori.get(this.props.imdata, 'name')
+    const email = mori.get(this.props.imdata, 'email')
 
     return (
       <form>
         <div className='input-row'>
-          <label>First Name</label>
-          <input type='text' value={fname} onInput={updateFnameInput} />
+          <label>Your Name</label>
+          <input type='text' value={name} onInput={updateNameInput} />
         </div>
-        <label>
-        Last Name
-        <input type='text' value={lname} />
-        </label>
-        <br />
-        <label>
-        Email
-        <input type='text' email='email' />
-        </label>
-        <br />
+        <div className='input-row'>
+          <label>Email </label>
+          <input type='text' value={email} onInput={updateEmailInput} />
+        </div>
       </form>
     )
   }
