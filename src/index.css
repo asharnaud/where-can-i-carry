@@ -241,21 +241,20 @@ body {
 }
 
 .submit-btn {
-  align-self: center;
   background-color: #5cb85c;
   border-radius: 0.6em;
   color: white;
-  display: flex;
+  position: absolute;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   font-weight: 700;
+  height: 50px;
   line-height: 1;
-  padding: 1.2em 2.8em;
-  text-align: center;
-  text-decoration: none;
-  margin: 0;
-  padding-right: 0px;
+  padding-left: 8px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .the-autocomplete-box {
@@ -294,7 +293,61 @@ body {
 
 /*MENU*/
 
-.menu-trigger {
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    /*margin-left: 50px;*/
+}
+
+#main {
+    background-color: #111;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:0;
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/*.menu-trigger {
 	position: absolute;
   top: 0;
 }
@@ -307,11 +360,11 @@ body {
   margin: 10px;
 	position: fixed;
 	top: 0;
-	left: 0;
+	left: 200px;
 	z-index: 1;
-	border-radius: 3px;
+	border-radius: 20px;
 	transition: transform .3s ease;
-	-webkit-user-select: none;
+  -webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
 	-o-user-select: none;
@@ -322,35 +375,22 @@ body {
 	background-color: #222;
 }
 
-.menu-trigger:checked + label {
-	transform: translateX(250px);
-}
-
-.menu-trigger:checked ~ header {
-	transform: translateX(0px);
-}
-
-.stuff {
-	width: 60%;
-	margin: 10px auto;
-	background-color: #CCC;
-	border-radius: 2px;
-	height: 100px;
-}
-
-header {
+.menu-links {
+  position: absolute;
 	background-color: #333;
 	height: 100%;
 	width: 250px;
 	overflow: auto;
-	position: fixed;
 	top: 0;
 	left: 0;
-	transform: translateX(-250px);
 	transition: transform .3s ease;
 }
 
-ul.menu > li > a {
+.menu {
+  display: block;
+}
+
+.menu li a {
 	color: #AAA;
 	text-decoration: none;
 	padding: 10px 30px;
@@ -360,4 +400,4 @@ ul.menu > li > a {
 ul.menu > li > a:hover {
 	background-color: #222;
 	color: #FFF;
-}
+}*/

@@ -26,7 +26,7 @@ class Modal extends MoriComponent {
     return (
       <div className='modal-show'>
         <div className='modal-content'>
-          <button className='close' onClick={clickHideModal}><i class='fa fa-times' aria-hidden='true'></i></button>
+          <button className='close' onClick={clickHideModal}><i class='fa fa-times' aria-hidden='true' /></button>
           <div className='modal-header'>
             <h2>Add Location</h2>
           </div>

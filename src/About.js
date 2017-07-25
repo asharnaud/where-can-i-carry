@@ -1,5 +1,5 @@
 
-function AboutPage () {
+function About () {
   return (
     <div>
       <p>Hi About!</p>
@@ -7,4 +7,4 @@ function AboutPage () {
   )
 }
 
-export default AboutPage
+export default About

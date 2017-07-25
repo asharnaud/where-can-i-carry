@@ -1,5 +1,5 @@
 import { render } from 'inferno'
-import App from './App'
+import App from './app'
 import { fetchCompanyData } from './map'
 import mori from 'mori'
 import './index.css'
