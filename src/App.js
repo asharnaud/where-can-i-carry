@@ -6,7 +6,7 @@ import StateExplorer from './state-explorer.js'
 import {morilog} from './util.js'
 import {GOOGLE_MAP_ID} from './constants.js'
 import './index.css'
-// import HamburgerMenu from './menu.js'
+import HamburgerMenu from './menu.js'
 
 const showStateExplorer = document.location.search.indexOf('stateexplorer') !== -1
 
@@ -28,6 +28,7 @@ class App extends MoriComponent {
           <div className='mapContainer' id={GOOGLE_MAP_ID} />
           <SideBar imdata={this.props.imdata} />
           {modalComponent}
+          {HamburgerMenu()}
         </section>
         {stateExplorerComponent}
       </div>

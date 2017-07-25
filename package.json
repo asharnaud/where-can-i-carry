@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "inferno": "3.6.4",
-    "inferno-component": "^3.6.4",
+    "inferno-component": "3.6.4",
+    "inferno-router": "3.7.0",
     "mori": "0.3.2",
     "zepto": "1.2.0"
   },

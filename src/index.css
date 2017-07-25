@@ -293,3 +293,71 @@ body {
 }
 
 /*MENU*/
+
+.menu-trigger {
+	position: absolute;
+  top: 0;
+}
+
+.menu-trigger {
+	background-color: #333;
+	color: #FFF;
+	cursor: pointer;
+	padding: 20px 10px;
+  margin: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	border-radius: 3px;
+	transition: transform .3s ease;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.menu-trigger:hover {
+	background-color: #222;
+}
+
+.menu-trigger:checked + label {
+	transform: translateX(250px);
+}
+
+.menu-trigger:checked ~ header {
+	transform: translateX(0px);
+}
+
+.stuff {
+	width: 60%;
+	margin: 10px auto;
+	background-color: #CCC;
+	border-radius: 2px;
+	height: 100px;
+}
+
+header {
+	background-color: #333;
+	height: 100%;
+	width: 250px;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform: translateX(-250px);
+	transition: transform .3s ease;
+}
+
+ul.menu > li > a {
+	color: #AAA;
+	text-decoration: none;
+	padding: 10px 30px;
+	display: block;
+}
+
+ul.menu > li > a:hover {
+	background-color: #222;
+	color: #FFF;
+}

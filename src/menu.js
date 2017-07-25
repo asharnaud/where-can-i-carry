@@ -1,17 +1,31 @@
 import './index.css'
+import mori from 'mori'
 
 function clickShowMenu () {
-  if (!window.appState.isMenuShowing) {
-    window.appState.isMenuShowing = true
-  } else {
-    window.appState.isMenuShowing = false
+  window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isMenuShowing', true)
+}
+
+function showMenuLinks () {
+  if (mori.get(window.CURRENT_STATE, 'isMenuShowing')) {
+    return (
+      <header>
+        <ul className='menu'>
+          <li><a href='#'>Link</a></li>
+          <li><a href='#'>Link</a></li>
+          <li><a href='#'>Link</a></li>
+          <li><a href='#'>Link</a></li>
+          <li><a href='#'>Link</a></li>
+        </ul>
+      </header>
+    )
   }
 }
 
 function HamburgerMenu () {
   return (
     <div>
-      <button className='menu-btn-show' onClick={clickShowMenu}>Menu</button>
+      <button className='menu-trigger' onClick={clickShowMenu}>Menu</button>
+      {showMenuLinks()}
     </div>
   )
 }
