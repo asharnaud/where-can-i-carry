@@ -29,7 +29,7 @@ function HamburgerMenu () {
     <div>
       <div id='mySidenav' className='sidenav'>
         <a href=''>Home</a>
-        <a id='about' onClick={changePage}>About</a>
+        <a id='about' href='#/about'>About</a>
         <a href='mailto:ashleigh.arnaud@gmail.com'>Contact</a>
       </div>
       <div id='main'>

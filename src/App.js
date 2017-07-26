@@ -21,7 +21,10 @@ function bodyComponent () {
   } else {
     return (
       <div>
-        <div className='mapContainer' id={GOOGLE_MAP_ID} />
+        <div>
+          <div className='mapContainer' id={GOOGLE_MAP_ID} />
+          <SideBar imdata={window.CURRENT_STATE} />
+        </div>
       </div>
     )
   }
@@ -43,7 +46,6 @@ class App extends MoriComponent {
       <div id='appContainer2'>
         <section id='mainContainer'>
           {bodyComponent()}
-          <SideBar imdata={this.props.imdata} />
           {modalComponent}
           {HamburgerMenu()}
         </section>
