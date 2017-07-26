@@ -13,6 +13,15 @@ const initialState = {
     restrictionType: null,
     isValidSign: null,
     comment: ''
+  },
+  locationHash: ''
+}
+
+window.onhashchange = myFunction
+
+function myFunction (obj) {
+  if (obj.oldURL !== obj.newURL) {
+    window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'locationHash', obj.newURL)
   }
 }
 

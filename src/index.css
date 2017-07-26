@@ -15,10 +15,23 @@ body {
 
 }
 
+.about-body{
+
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.about-body {
+  flex: 1;
+  height: 100%;
+}
+
 .mapContainer {
   width: 100%;
   height: 100vh;
   display: flex;
+  border-left: 45px solid #111;
 }
 
 .map {
@@ -38,9 +51,9 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
-  right: 50px;
+  right: 20px;
   top: 10px;
-  width: 200px;
+  width: 181px;
 }
 
 .header-container {
@@ -48,22 +61,27 @@ body {
   display: flex;
 }
 
+.header-container p {
+  font-size: 20px;
+}
+
 .checkbox-item {
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Helvetica Neue';
   text-align: left;
 }
 
 .checkbox-container {
   margin-top: 5px;
+  margin-bottom: 15px;
   padding: 10px;
 }
 
 .side-bar p {
   margin-top: 0;
   padding-left:10px;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .fa-map-marker {
@@ -77,7 +95,7 @@ body {
   background-color:#cbe6a3;
   border: none;
   padding: 10px;
-  width: 98%;
+  width: 101%;
   transition: all 0.5s;
   text-align: center;
   cursor: pointer;
@@ -111,20 +129,6 @@ body {
   right: 0;
 }
 
-.footer {
-  position:absolute;
-  background-color: black;
-  height: 4.5vh;
-  width:100%;
-  color: white;
-  bottom: 0px;
-}
-
-.footer a {
-  color: white;
-
-}
-
 /* Modal */
 
 .modal-show {
@@ -134,7 +138,7 @@ body {
     padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 105%;
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
@@ -214,23 +218,32 @@ body {
 }
 
 .input-row {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .modal-checkbox-container {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.modal-checkbox-container p {
+  text-decoration: underline;
+}
+
 .valid-container {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.valid-container p {
+  text-decoration: underline;
 }
 
 .add-location-map {
   position: absolute;
-  right: 50px;
+  right: 30px;
   top: 75px;
   border: 2px solid black;
-  width: 40%;
+  width: 50%;
   height: 45vh;
 }
 .checkbox-item-2 {
@@ -252,7 +265,7 @@ body {
   height: 50px;
   line-height: 1;
   padding-left: 8px;
-  width: 100px;
+  width: 120px;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -262,7 +275,7 @@ body {
   width: 30%;
   height: 2vh;
   float: right;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-right: 100px;
 }
 
@@ -274,19 +287,20 @@ body {
 
 #mainContainer {
   position: relative;
-  flex: 6;
+  flex: 2;
 }
 
 #explorerContainer {
   background: rgba(255, 255, 0, 0.8);
   border-left: 2px solid #ccc;
-  flex: 2;
-  padding: 20px;
+  flex: .5;
+  padding: 10px;
+  margin-left: 45px;
 }
 
 #explorerContainer textarea {
   font-family: Monaco, Inconsolata, Consolas, Courier, monospace;
-  font-size: 20px;
+  font-size: 16px;
   height: 600px;
   width: 100%;
 }
@@ -294,25 +308,26 @@ body {
 /*MENU*/
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #111;
+    height: 100%;
+    left: 0;
     overflow-x: hidden;
-    transition: 0.5s;
     padding-top: 60px;
+    position: fixed;
+    top: 0;
+    transition-timing-function: ease-in-out;
+    transition: 150ms;
+    width: 0;
+    z-index: 1;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
     display: block;
-    transition: 0.3s;
+    transition: 150ms;
 }
 
 .sidenav a:hover {
@@ -320,22 +335,14 @@ body {
     color: black;
 }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 36px;
-    /*margin-left: 50px;*/
-}
-
 #main {
     background-color: #111;
     color: white;
     position: absolute;
-    top: 50%;
-    left:0;
-    transition: margin-left .5s;
-    padding: 16px;
+    top: 0;
+    left: 0;
+    transition: margin-left 150ms;
+    padding: 6px;
 }
 
 @media screen and (max-height: 450px) {
@@ -346,58 +353,3 @@ body {
     font-size: 18px;
   }
 }
-
-/*.menu-trigger {
-	position: absolute;
-  top: 0;
-}
-
-.menu-trigger {
-	background-color: #333;
-	color: #FFF;
-	cursor: pointer;
-	padding: 20px 10px;
-  margin: 10px;
-	position: fixed;
-	top: 0;
-	left: 200px;
-	z-index: 1;
-	border-radius: 20px;
-	transition: transform .3s ease;
-  -webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-}
-
-.menu-trigger:hover {
-	background-color: #222;
-}
-
-.menu-links {
-  position: absolute;
-	background-color: #333;
-	height: 100%;
-	width: 250px;
-	overflow: auto;
-	top: 0;
-	left: 0;
-	transition: transform .3s ease;
-}
-
-.menu {
-  display: block;
-}
-
-.menu li a {
-	color: #AAA;
-	text-decoration: none;
-	padding: 10px 30px;
-	display: block;
-}
-
-ul.menu > li > a:hover {
-	background-color: #222;
-	color: #FFF;
-}*/
