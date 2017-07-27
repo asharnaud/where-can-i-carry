@@ -14,23 +14,42 @@ let theInfoWindow = null
 let companiesObj = {}
 
 function filterMarkers (filters) {
+  console.log(filters)
   // clear all the markers
   markerCluster.clearMarkers()
+
+  let visibleMarkers = []
 
   for (let companyId in companiesObj) {
     if (!companiesObj.hasOwnProperty(companyId)) continue
 
     let company = companiesObj[companyId]
     let marker = mapMarkers[companyId]
-
+    let showMarker = false
     // TODO: show or hide the marker based on filter
-    // if (filters.allowsOpenCarry && company.allowsOpenCarry)
-    // marker.setVisible(true)
-    // marker.setVisible(false)
+    if (filters.allowsOpenCarry && company.allowsOpenCarry) {
+      showMarker = true
+    } else if (filters.allowsConcealedCarry && company.allowsConcealedCarry) {
+      showMarker = true
+    }
+    // } else if (filters.doesNotAllowOpenCarry && !company.allowsOpenCarry) {
+    //   showMarker = true
+    // }
+    // } else if (!filters.allowsOpenCarry && !company.allowsOpenCarry) {
+    //   showMarker = true
+    // } else if (!filters.allowsConcealedCarry && !company.allowsConcealedCarry) {
+    //   showMarker = true
+    // }
 
-    // TODO: build an array of visible markers
-    // markerCluster.addMarkers(visibleMarkers)
+    if (showMarker) {
+      marker.setVisible(true)
+      visibleMarkers.push(marker)
+    }
+    // marker.setVisible(false)
   }
+  // TODO: build an array of visible markers
+  markerCluster.addMarkers(visibleMarkers)
+  console.log('loop is finished')
 }
 
 function fetchCompanyDataSuccess (data) {

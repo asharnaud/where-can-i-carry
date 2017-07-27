@@ -17,6 +17,7 @@ const initialState = {
   mapFilters: {
     allowsOpenCarry: true,
     allowsConcealedCarry: true
+    // doesNotAllowOpenCarry: true
   },
   route: DEFAULT_ROUTE,
   newLocationForm: {
