@@ -11,18 +11,27 @@ let mapMarkers = {}
 let markerCluster = null
 let markersArr = []
 let theInfoWindow = null
-let companies = {}
 let companiesObj = {}
 
-// possible marker states:
-// - all the markers
-// - ONLY places that allow open carry
-// - ONLY places that DO NOT allow open carry
-// - ONLY places that allow concealed carry
-// - ONLY places that DO NOT allow concealed carry
-// - allows open && allows concealed
-// - allows open && ! allows concealed
-// - allows concealed && ! allows open
+function filterMarkers (filters) {
+  // clear all the markers
+  markerCluster.clearMarkers()
+
+  for (let companyId in companiesObj) {
+    if (!companiesObj.hasOwnProperty(companyId)) continue
+
+    let company = companiesObj[companyId]
+    let marker = mapMarkers[companyId]
+
+    // TODO: show or hide the marker based on filter
+    // if (filters.allowsOpenCarry && company.allowsOpenCarry)
+    // marker.setVisible(true)
+    // marker.setVisible(false)
+
+    // TODO: build an array of visible markers
+    // markerCluster.addMarkers(visibleMarkers)
+  }
+}
 
 function fetchCompanyDataSuccess (data) {
   data.forEach(function (company) {
@@ -106,5 +115,8 @@ window.GMAP_SCRIPT_LOADED = function () {
   googleMapScriptLoaded = true
   initGMap()
 }
+
+window.CARRY = window.CARRY = {}
+window.CARRY.filterMarkers = filterMarkers
 
 export { fetchCompanyData }

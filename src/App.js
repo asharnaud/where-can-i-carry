@@ -13,12 +13,18 @@ const showStateExplorer = document.location.search.indexOf('stateexplorer') !== 
 
 class Map extends MoriComponent {
   render () {
+    const isShowing = mori.get(this.props.imdata, 'isShowing')
+    const filters = mori.get(this.props.imdata, 'filters')
+
+    let style = {}
+    if (!isShowing) style = {display: 'none'}
+
     // TODO: write a descriptive comment about why there are nested <div>s here
     return (
-      <div>
+      <div style={style}>
         <div>
           <div className='mapContainer' id={GOOGLE_MAP_ID} />
-          <SideBar imdata={this.props.imdata} />
+          <SideBar imdata={filters} />
         </div>
       </div>
     )
@@ -41,8 +47,9 @@ class App extends MoriComponent {
 
     const route = mori.get(this.props.imdata, 'route')
 
-    let mapComponent = null
-    if (route === '/map') mapComponent = <Map imdata={this.props.imdata} />
+    const mapArgs = mori.hashMap('isShowing', (route === '/map'),
+                                 'filters', mori.get(this.props.imdata, 'mapFilters'))
+    const mapComponent = <Map imdata={mapArgs} />
 
     let aboutComponent = null
     if (route === '/about') aboutComponent = About()
