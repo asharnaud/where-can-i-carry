@@ -1,4 +1,3 @@
-import './index.css'
 import Forminputs from './form-inputs.js'
 import FormCheckboxes from './form-checkboxes.js'
 import mori from 'mori'

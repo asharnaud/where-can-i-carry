@@ -14,6 +14,16 @@ let theInfoWindow = null
 let companies = {}
 let companiesObj = {}
 
+// possible marker states:
+// - all the markers
+// - ONLY places that allow open carry
+// - ONLY places that DO NOT allow open carry
+// - ONLY places that allow concealed carry
+// - ONLY places that DO NOT allow concealed carry
+// - allows open && allows concealed
+// - allows open && ! allows concealed
+// - allows concealed && ! allows open
+
 function fetchCompanyDataSuccess (data) {
   data.forEach(function (company) {
     companiesObj[company.id] = company

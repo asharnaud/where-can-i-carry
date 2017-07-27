@@ -4,26 +4,48 @@ import { fetchCompanyData } from './map'
 import mori from 'mori'
 import './index.css'
 
+// -----------------------------------------------------------------------------
+// Constants / Initial State
+// -----------------------------------------------------------------------------
+
+const VALID_ROUTES = mori.set(['/about', '/map'])
+const DEFAULT_ROUTE = '/map'
+
 const initialState = {
   isModalShowing: false,
   isMenuShowing: false,
+  mapFilters: {
+    allowsOpenCarry: true,
+    allowsConcealedCarry: true
+  },
+  route: DEFAULT_ROUTE,
   newLocationForm: {
     name: '',
     email: '',
     restrictionType: null,
     isValidSign: null,
     comment: ''
-  },
-  locationHash: ''
-}
-
-window.onhashchange = myFunction
-
-function myFunction (obj) {
-  if (obj.oldURL !== obj.newURL) {
-    window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'locationHash', obj.newURL)
   }
 }
+
+// -----------------------------------------------------------------------------
+// Routing
+// -----------------------------------------------------------------------------
+
+function onHashChange () {
+  const newHash = document.location.hash.replace('#', '')
+  if (!mori.hasKey(VALID_ROUTES, newHash)) {
+    document.location.hash = '#' + DEFAULT_ROUTE
+  } else {
+    window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'route', newHash)
+  }
+}
+
+window.onhashchange = onHashChange
+
+// -----------------------------------------------------------------------------
+// Render Loop
+// -----------------------------------------------------------------------------
 
 // CURRENT_STATE is always the current state of the application
 window.CURRENT_STATE = null
@@ -51,10 +73,16 @@ function InfernoRenderLoop () {
 
 window.requestAnimationFrame(InfernoRenderLoop)
 
-const GMAP_SCRIPT_URL = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyC67l8WPqxwg_Acx1XMIfKR3_VEFHVlbyI&libraries=places&callback=window.GMAP_SCRIPT_LOADED'
+// -----------------------------------------------------------------------------
+// Google Map Script
+// -----------------------------------------------------------------------------
+
+const GMAP_SCRIPT_URL = 'https://maps.googleapis.com/maps/api/js?' +
+                        'key=AIzaSyC67l8WPqxwg_Acx1XMIfKR3_VEFHVlbyI' +
+                        '&libraries=places' +
+                        '&callback=window.GMAP_SCRIPT_LOADED'
 
 // Make sure the Google Maps script gets loaded after the bundle script.
-
 function injectGoogleMapScript () {
   let scriptEl = document.createElement('script')
   scriptEl.type = 'text/javascript'
@@ -62,11 +90,16 @@ function injectGoogleMapScript () {
   document.body.appendChild(scriptEl)
 }
 
+// -----------------------------------------------------------------------------
+// Global Init
+// -----------------------------------------------------------------------------
+
 // entry point for the whole enchilada
 function globalInit () {
   injectGoogleMapScript()
   fetchCompanyData()
   InfernoRenderLoop()
+  onHashChange()
 }
 
 window.addEventListener('load', globalInit)

@@ -1,4 +1,3 @@
-import './index.css'
 import mori from 'mori'
 import MoriComponent from './mori-component'
 import {morilog} from './util.js'

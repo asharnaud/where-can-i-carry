@@ -1,6 +1,5 @@
 import mori from 'mori'
 import MoriComponent from './mori-component'
-import './index.css'
 
 class StateExplorer extends MoriComponent {
   render () {

@@ -1,29 +1,24 @@
 import mori from 'mori'
+import About from './about.js'
 import MoriComponent from './mori-component'
 import Modal from './modal.js'
 import SideBar from './sidebar.js'
-import About from './about.js'
 import StateExplorer from './state-explorer.js'
+import HamburgerMenu from './menu.js'
+
 import {morilog} from './util.js'
 import {GOOGLE_MAP_ID} from './constants.js'
-import './index.css'
-import HamburgerMenu from './menu.js'
 
 const showStateExplorer = document.location.search.indexOf('stateexplorer') !== -1
 
-function bodyComponent () {
-  let location = mori.get(window.CURRENT_STATE, 'locationHash')
-  if (location !== '') {
-    console.log('this is the bodyComponent')
-    return (
-      About()
-    )
-  } else {
+class Map extends MoriComponent {
+  render () {
+    // TODO: write a descriptive comment about why there are nested <div>s here
     return (
       <div>
         <div>
           <div className='mapContainer' id={GOOGLE_MAP_ID} />
-          <SideBar imdata={window.CURRENT_STATE} />
+          <SideBar imdata={this.props.imdata} />
         </div>
       </div>
     )
@@ -42,12 +37,23 @@ class App extends MoriComponent {
       stateExplorerComponent = <StateExplorer imdata={this.props.imdata} />
     }
 
+    const isMenuShowing = mori.get(this.props.imdata, 'isMenuShowing')
+
+    const route = mori.get(this.props.imdata, 'route')
+
+    let mapComponent = null
+    if (route === '/map') mapComponent = <Map imdata={this.props.imdata} />
+
+    let aboutComponent = null
+    if (route === '/about') aboutComponent = About()
+
     return (
       <div id='appContainer2'>
         <section id='mainContainer'>
-          {bodyComponent()}
+          {mapComponent}
+          {aboutComponent}
           {modalComponent}
-          {HamburgerMenu()}
+          {HamburgerMenu(isMenuShowing)}
         </section>
         {stateExplorerComponent}
       </div>

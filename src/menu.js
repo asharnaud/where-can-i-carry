@@ -1,39 +1,29 @@
-import './index.css'
-import App from './app.js'
 import mori from 'mori'
+import {booleanNot} from './util'
 
-function openNav () {
-  if (!mori.get(window.CURRENT_STATE, 'isMenuShowing')) {
-    window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isMenuShowing', true)
-    document.getElementById('mySidenav').style.width = '250px'
-    document.getElementById('main').style.marginLeft = '250px'
-  } else {
-    closeNav()
-  }
+function clickHamburgerMenu () {
+  window.NEXT_STATE = mori.updateIn(window.CURRENT_STATE, ['isMenuShowing'], booleanNot)
 }
 
-function closeNav () {
-  if (mori.get(window.CURRENT_STATE, 'isMenuShowing')) {
+function closeSidebar () {
+  setTimeout(function () {
     window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isMenuShowing', false)
-    document.getElementById('mySidenav').style.width = '0'
-    document.getElementById('main').style.marginLeft = '0'
-  }
+  }, 50)
 }
 
-function changePage () {
-  window.location.hash = '/about'
-}
+function HamburgerMenu (isMenuShowing) {
+  let classVal = ''
+  if (isMenuShowing) classVal = 'open'
 
-function HamburgerMenu () {
   return (
-    <div>
-      <div id='mySidenav' className='sidenav'>
-        <a href=''>Home</a>
-        <a id='about' href='#/about'>About</a>
+    <div className={classVal}>
+      <div className='sidenav'>
+        <a href='#/map' onClick={closeSidebar}>Home</a>
+        <a href='#/about' onClick={closeSidebar}>About</a>
         <a href='mailto:ashleigh.arnaud@gmail.com'>Contact</a>
       </div>
-      <div id='main'>
-        <span style='font-size:30px;cursor:pointer;' onclick={openNav}><i className='fa fa-bars' aria-hidden='true'></i></span>
+      <div className='hamburger'>
+        <span style='font-size:30px;cursor:pointer;' onclick={clickHamburgerMenu}><i className='fa fa-bars' aria-hidden='true' /></span>
       </div>
     </div>
   )

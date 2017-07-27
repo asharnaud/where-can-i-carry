@@ -1,6 +1,5 @@
 /* global google */
 import MoriComponent from './mori-component'
-import './index.css'
 
 let theSecondMap = null
 let theAutoCompleteBox = null

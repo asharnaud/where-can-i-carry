@@ -14,4 +14,8 @@ function uuid () {
     s4() + '-' + s4() + s4() + s4()
 }
 
-export {morilog, uuid}
+function booleanNot (x) {
+  return !x
+}
+
+export {booleanNot, morilog, uuid}
