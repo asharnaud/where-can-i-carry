@@ -16,16 +16,12 @@ function clickConcealedCarry () {
   window.CARRY.filterMarkers(mori.toJs(mori.get(window.NEXT_STATE, 'mapFilters')))
 }
 
-// function clickDoesNotOpenCarry () {
-//   window.NEXT_STATE = mori.updateIn(window.CURRENT_STATE, ['mapFilters', 'doesNotAllowOpenCarry'], booleanNot)
-//   window.CARRY.filterMarkers(mori.toJs(mori.get(window.NEXT_STATE, 'mapFilters')))
-// }
-
 class SideBar extends MoriComponent {
   render () {
+    // window.CARRY.filterMarkers(mori.toJs(mori.get(window.CURRENT_STATE, 'mapFilters')))
+
     const allowsOpenCarry = mori.get(this.props.imdata, 'allowsOpenCarry')
     const allowsConcealedCarry = mori.get(this.props.imdata, 'allowsConcealedCarry')
-    const doesNotAllowOpenCarry = mori.get(this.props.imdata, 'doesNotAllowOpenCarry')
 
     return (
       <div className='side-bar'>

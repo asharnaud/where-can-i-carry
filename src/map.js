@@ -25,31 +25,30 @@ function filterMarkers (filters) {
 
     let company = companiesObj[companyId]
     let marker = mapMarkers[companyId]
-    let showMarker = false
-    // TODO: show or hide the marker based on filter
-    if (filters.allowsOpenCarry && company.allowsOpenCarry) {
-      showMarker = true
-    } else if (filters.allowsConcealedCarry && company.allowsConcealedCarry) {
-      showMarker = true
-    }
-    // } else if (filters.doesNotAllowOpenCarry && !company.allowsOpenCarry) {
-    //   showMarker = true
-    // }
-    // } else if (!filters.allowsOpenCarry && !company.allowsOpenCarry) {
-    //   showMarker = true
-    // } else if (!filters.allowsConcealedCarry && !company.allowsConcealedCarry) {
-    //   showMarker = true
-    // }
 
-    if (showMarker) {
+    if ((filters.allowsOpenCarry && company.allowsOpenCarry) &&
+        (filters.allowsConcealedCarry && company.allowsConcealedCarry)) {
       marker.setVisible(true)
       visibleMarkers.push(marker)
+      console.log(company)
+    } else if ((!filters.allowsOpenCarry && !company.allowsOpenCarry) &&
+        (filters.allowsConcealedCarry && company.allowsConcealedCarry)) {
+      marker.setVisible(true)
+      visibleMarkers.push(marker)
+      console.log(company)
+    } else if ((filters.allowsOpenCarry && company.allowsOpenCarry) &&
+        (!filters.allowsConcealedCarry && !company.allowsConcealedCarry)) {
+      marker.setVisible(true)
+      visibleMarkers.push(marker)
+      console.log(company)
+    } else if ((!filters.allowsOpenCarry && !company.allowsOpenCarry) &&
+        (!filters.allowsConcealedCarry && !company.allowsConcealedCarry)) {
+      marker.setVisible(true)
+      visibleMarkers.push(marker)
+      console.log(company)
     }
-    // marker.setVisible(false)
   }
-  // TODO: build an array of visible markers
   markerCluster.addMarkers(visibleMarkers)
-  console.log('loop is finished')
 }
 
 function fetchCompanyDataSuccess (data) {

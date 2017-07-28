@@ -15,9 +15,8 @@ const initialState = {
   isModalShowing: false,
   isMenuShowing: false,
   mapFilters: {
-    allowsOpenCarry: true,
-    allowsConcealedCarry: true
-    // doesNotAllowOpenCarry: true
+    allowsOpenCarry: false,
+    allowsConcealedCarry: false
   },
   route: DEFAULT_ROUTE,
   newLocationForm: {

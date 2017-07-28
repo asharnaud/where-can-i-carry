@@ -15,15 +15,12 @@ body {
 
 }
 
-.about-body{
-
-  width: 50%;
+.about-body {
   height: 100vh;
   margin: 0 auto;
 }
 
 .about-body {
-  margin-top: 100px;
   flex: 1;
   height: 100%;
   font-family: "Roboto",serif;
@@ -32,34 +29,35 @@ body {
 }
 
 .about-body h1 {
+  flex: .2;
   font-family: "Roboto",serif;
   font-size: 35px;
-  font-weight: 800px;
+  text-align: center;
+}
+
+.about-paragraph {
+  flex: 1;
+  margin-left: 10px;
 }
 
 .header-container-about {
   text-align: center;
   height: 20%;
-  position: absolute;
-  top: 0;
-  left: 38px;
-  width: 100%;
+  display: flex;
+  flex: 0.2;
   background-color: #111;
   color: white;
 }
 
 .header-container-about p {
-  width: 19%;
-  margin-left: 20%;
   font-size: 22px;
   color: white;
 }
 
 .header-container-about .fa-map-marker {
-  margin-left: 20%;
-  font-size: 50px;
-  margin-top: 4px;
-  float: left;
+  margin-left: 39%;
+  margin-top: 6px;
+  font-size: 40px;
 }
 
 .image-container-about {
@@ -75,10 +73,10 @@ body {
 
 
 .mapContainer {
-  width: 100%;
+  width: 98%;
   height: 100vh;
   display: flex;
-  border-left: 45px solid #111;
+  margin-left: 30px;
 }
 
 .map {
@@ -91,64 +89,72 @@ body {
   background-color: black;
   border: 1px solid black;
   color: white;
-  height: 50%;
-  margin-top: 6%;
+  height: 35%;
+  margin-top: 2%;
   min-width: 150px;
   opacity: .9;
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
-  right: 20px;
+  right: 33px;
   top: 10px;
-  width: 181px;
+  width: 22%;
 }
 
 .header-container {
-  margin-top: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
   display: flex;
 }
 
 .header-container p {
   font-size: 20px;
+  font-size: 2px;
+  font-weight: 800px;
 }
 
 .checkbox-item {
   color: white;
+  font-family: "Roboto",serif;
+  font-weight: 300px;
   font-size: 16px;
-  font-family: 'Helvetica Neue';
   text-align: left;
 }
 
 .checkbox-container {
-  margin-top: 5px;
-  margin-bottom: 15px;
-  padding: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 0px;
 }
 
 .side-bar p {
-  margin-top: 0;
-  padding-left:10px;
-  font-size: 24px;
+  font-family: "Roboto",serif;
+  margin-top: 13px;
+  padding-left: 4px;
+  font-size: 20px;
 }
 
 .fa-map-marker {
-  font-size: 40px;
+  font-size: 36px;
   color: red;
   padding-bottom: 0;
 }
 
 .add-location-btn {
   border-radius: 4px;
-  background-color:#cbe6a3;
+  background-color: #cbe6a3;
   border: none;
-  padding: 10px;
-  width: 101%;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80%;
   transition: all 0.5s;
   text-align: center;
   cursor: pointer;
-  font-size:24px;
+  font-size: 21px;
   color: black;
-  margin: 0 auto;
+  margin-left: 10%;
 }
 
 .add-location-btn span {
@@ -342,7 +348,6 @@ body {
   border-left: 2px solid #ccc;
   flex: .5;
   padding: 10px;
-  margin-left: 45px;
 }
 
 #explorerContainer textarea {
@@ -355,31 +360,31 @@ body {
 /*MENU*/
 
 .sidenav {
-    background-color: #111;
-    height: 100%;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 60px;
-    position: fixed;
-    top: 0;
-    transition-timing-function: ease-in-out;
-    transition: 150ms;
-    width: 0;
-    z-index: 1;
+  background-color: #111;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  position: fixed;
+  top: 0;
+  transition-timing-function: ease-in-out;
+  transition: 150ms;
+  width: 0;
+  z-index: 1;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-    transition: 150ms;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 150ms;
 }
 
 .sidenav a:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .hamburger {
