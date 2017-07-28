@@ -14,7 +14,6 @@ let theInfoWindow = null
 let companiesObj = {}
 
 function filterMarkers (filters) {
-  console.log(filters)
   // clear all the markers
   markerCluster.clearMarkers()
 
@@ -30,22 +29,18 @@ function filterMarkers (filters) {
         (filters.allowsConcealedCarry && company.allowsConcealedCarry)) {
       marker.setVisible(true)
       visibleMarkers.push(marker)
-      console.log(company)
     } else if ((!filters.allowsOpenCarry && !company.allowsOpenCarry) &&
         (filters.allowsConcealedCarry && company.allowsConcealedCarry)) {
       marker.setVisible(true)
       visibleMarkers.push(marker)
-      console.log(company)
     } else if ((filters.allowsOpenCarry && company.allowsOpenCarry) &&
         (!filters.allowsConcealedCarry && !company.allowsConcealedCarry)) {
       marker.setVisible(true)
       visibleMarkers.push(marker)
-      console.log(company)
     } else if ((!filters.allowsOpenCarry && !company.allowsOpenCarry) &&
         (!filters.allowsConcealedCarry && !company.allowsConcealedCarry)) {
       marker.setVisible(true)
       visibleMarkers.push(marker)
-      console.log(company)
     }
   }
   markerCluster.addMarkers(visibleMarkers)

@@ -37,12 +37,12 @@ body {
 
 .about-paragraph {
   flex: 1;
-  margin-left: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
 }
 
 .header-container-about {
   text-align: center;
-  height: 20%;
   display: flex;
   flex: 0.2;
   background-color: #111;
