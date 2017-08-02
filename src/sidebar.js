@@ -1,6 +1,7 @@
 import mori from 'mori'
 import MoriComponent from './mori-component'
 import {booleanNot} from './util'
+import logo from './logo.png'
 
 function clickShowModal () {
   window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isModalShowing', true)
@@ -26,7 +27,7 @@ class SideBar extends MoriComponent {
     return (
       <div className='side-bar'>
         <div className='header-container'>
-          <img className='logo-sidebar' src='https://photos-3.dropbox.com/t/2/AABNsIgkBY6s33XdfdwUJcxoOcVV3VXP2USE-lO9aDoQdA/12/550048398/png/32x32/1/_/1/2/logo.png/ELeM47MEGJoBIAIoAg/xkJIEYlBpJ1gvkpfXzSIqh-tcilZB-BISmc-CcybE_8?size=2048x1536&size_mode=3' alt='where can I carry logo' />
+          <img className='logo-sidebar' src={logo} />
         </div>
         <div className='checkbox-container'>
           <label className='checkbox-item'>
@@ -39,10 +40,6 @@ class SideBar extends MoriComponent {
            Allows Concealed Carry
           </label>
           <br />
-          {/* <label className='checkbox-item'>
-            <input type='checkbox' checked={doesNotAllowOpenCarry} onClick={clickConcealedCarry} />
-           Does Not Allow Open Carry
-          </label> */}
         </div>
         <button className='add-location-btn' onClick={clickShowModal}><span>Add Location</span></button>
       </div>
