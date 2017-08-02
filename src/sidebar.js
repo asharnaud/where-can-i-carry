@@ -26,8 +26,7 @@ class SideBar extends MoriComponent {
     return (
       <div className='side-bar'>
         <div className='header-container'>
-          <i className='fa fa-map-marker' aria-hidden='true' />
-          <p>Where Can I Carry?</p>
+          <img className='logo-sidebar' src='https://photos-3.dropbox.com/t/2/AABNsIgkBY6s33XdfdwUJcxoOcVV3VXP2USE-lO9aDoQdA/12/550048398/png/32x32/1/_/1/2/logo.png/ELeM47MEGJoBIAIoAg/xkJIEYlBpJ1gvkpfXzSIqh-tcilZB-BISmc-CcybE_8?size=2048x1536&size_mode=3' alt='where can I carry logo' />
         </div>
         <div className='checkbox-container'>
           <label className='checkbox-item'>

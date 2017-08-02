@@ -13,6 +13,11 @@ function clickHideModal () {
   window.NEXT_STATE = mori.assoc(window.CURRENT_STATE, 'isModalShowing', false)
 }
 
+function updateComment (evt) {
+  const newComment = evt.target.value
+  window.NEXT_STATE = mori.assocIn(window.CURRENT_STATE, ['newLocationForm', 'comments'], newComment)
+}
+
 function clickSubmitBtn () {
   morilog(window.NEXT_STATE)
 }
@@ -31,9 +36,9 @@ class Modal extends MoriComponent {
           </div>
           <div className='modal-body'>
             <div><Forminputs imdata={formInputs} /></div>
-            <div>{FormCheckboxes()}</div>
+            <div><FormCheckboxes imdata={formInputs} /></div>
             <p>Comments</p>
-            <textarea rows='4' cols='50' />
+            <textarea rows='4' cols='30' onInput={updateComment} />
           </div>
           <input className='submit-btn' type='submit' value='Submit' onClick={clickSubmitBtn} />
           <div><SecondMap imdata={emptyHashMap} /></div>

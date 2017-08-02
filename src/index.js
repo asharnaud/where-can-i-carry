@@ -22,9 +22,10 @@ const initialState = {
   newLocationForm: {
     name: '',
     email: '',
-    restrictionType: null,
-    isValidSign: null,
-    comment: ''
+    modalAllowsOpenCarry: false,
+    modalAllowsConcealedCarry: false,
+    comments: '',
+    address: ''
   }
 }
 

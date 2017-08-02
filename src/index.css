@@ -12,7 +12,6 @@ body {
 
 #appContainer {
   display: flex;
-
 }
 
 .about-body {
@@ -45,7 +44,7 @@ body {
   text-align: center;
   display: flex;
   flex: 0.2;
-  background-color: #111;
+  background-color: #303030;
   color: white;
 }
 
@@ -71,34 +70,42 @@ body {
   height: 50vh;
 }
 
-
 .mapContainer {
-  width: 98%;
+  width: 100%;
   height: 100vh;
   display: flex;
-  margin-left: 30px;
 }
 
 .map {
   flex: 1;
-  height: 100%;
-  border-left: 70px solid black;
 }
 
 .side-bar {
-  background-color: black;
+  background-color: #303030;
   border: 1px solid black;
   color: white;
   height: 35%;
   margin-top: 2%;
   min-width: 150px;
-  opacity: .9;
+  opacity: 1;
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
   right: 33px;
   top: 10px;
   width: 22%;
+}
+
+.logo-sidebar {
+  margin: 0 auto;
+  width: 100%;
+  height: 10vh;
+}
+
+.logo-about {
+  margin: 0 auto;
+  width: 25%;
+  height: 12vh;
 }
 
 .header-container {
@@ -137,7 +144,7 @@ body {
 
 .fa-map-marker {
   font-size: 36px;
-  color: red;
+  color: #f75850;
   padding-bottom: 0;
 }
 
@@ -191,7 +198,7 @@ body {
     padding-top: 100px;
     left: 0;
     top: 0;
-    width: 105%;
+    width: 100%;
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
@@ -250,6 +257,7 @@ body {
     opacity: 1;
     padding: 2px 16px;
     background-color: #5cb85c;
+    font-size: 12px;
     color: white;
 }
 
@@ -258,14 +266,20 @@ body {
   color: black;
 }
 
-.modal-body p, label {
+.modal-body label {
   padding: 0;
   margin: 5px 0;
   color: black;
-  font-size:20px;
+  font-size:16px;
+}
+
+.instructions {
+  font-size: 12px;
+  text-decoration: none;
 }
 
 .input-row input {
+  margin-top: 10px;
   margin-left: 5px;
   width: 20%;
 }
@@ -279,15 +293,8 @@ body {
   margin-bottom: 10px;
 }
 
-.modal-checkbox-container p {
-  text-decoration: underline;
-}
-
-.valid-container {
-  margin-bottom: 10px;
-}
-
-.valid-container p {
+.modal-checkbox-container h3 {
+  margin-bottom: 0px;
   text-decoration: underline;
 }
 
@@ -301,7 +308,7 @@ body {
 }
 .checkbox-item-2 {
   color: black;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Helvetica Neue';
   text-align: left;
 }
@@ -318,7 +325,7 @@ body {
   height: 50px;
   line-height: 1;
   padding-left: 8px;
-  width: 120px;
+  width: 100px;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -328,7 +335,7 @@ body {
   width: 30%;
   height: 2vh;
   float: right;
-  margin-top: 15px;
+  margin-top: 10%;
   margin-right: 100px;
 }
 
@@ -336,31 +343,34 @@ body {
   display: flex;
   position: relative;
   width: 100%;
+  height: 100vh;
 }
 
 #mainContainer {
   position: relative;
-  flex: 2;
+  width: 100%;
+  flex: 5;
 }
 
 #explorerContainer {
   background: rgba(255, 255, 0, 0.8);
-  border-left: 2px solid #ccc;
-  flex: .5;
+  flex: 1.3;
+  height: 100vh;
   padding: 10px;
+  margin-left: 0px;
 }
 
 #explorerContainer textarea {
   font-family: Monaco, Inconsolata, Consolas, Courier, monospace;
-  font-size: 16px;
-  height: 600px;
+  font-size: 14px;
+  height: 550px;
   width: 100%;
 }
 
 /*MENU*/
 
 .sidenav {
-  background-color: #111;
+  background-color: #303030;
   height: 100%;
   left: 0;
   overflow-x: hidden;
@@ -389,7 +399,7 @@ body {
 
 .hamburger {
   height: 100vh;
-  background-color: #111;
+  background-color: #303030;
   color: white;
   position: absolute;
   top: 0;
