@@ -25,7 +25,8 @@ const initialState = {
     modalAllowsOpenCarry: false,
     modalAllowsConcealedCarry: false,
     comments: '',
-    address: ''
+    companyName: '',
+    coordinates: ''
   }
 }
 

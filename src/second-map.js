@@ -1,4 +1,5 @@
 /* global google */
+import mori from 'mori'
 import MoriComponent from './mori-component'
 
 let theSecondMap = null
@@ -28,12 +29,31 @@ function initSecondMap () {
   initAutocompleteBox()
 }
 
+let newState = ''
+  // put the lat, long, and company name in the state object
+
+function fetchLatLng () {
+  let latLng = theAutoCompleteBox.getPlace().geometry.location
+  newState = mori.assocIn(window.CURRENT_STATE, ['newLocationForm', 'coordinates'], latLng)
+  window.NEXT_STATE = newState
+}
+
+function fetchCompanyName () {
+  setInterval(function () {
+    let company = theAutoCompleteBox.getPlace().name
+    newState = mori.assocIn(window.CURRENT_STATE, ['newLocationForm', 'companyName'], company)
+    window.NEXT_STATE = newState
+  }, 10)
+}
+
 function onAutocompleteChoice () {
   let place = theAutoCompleteBox.getPlace()
   // place.geometry.location get the lat and long
   theSecondMap.setCenter(place.geometry.location)
   theSecondMap.setZoom(ZOOM_LEVEL)
   theModalMapMarker.setPosition(place.geometry.location)
+  fetchLatLng()
+  fetchCompanyName()
 }
 
 function initAutocompleteBox () {
