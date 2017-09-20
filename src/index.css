@@ -84,16 +84,16 @@ body {
   background-color: #303030;
   border: 1px solid black;
   color: white;
-  height: 35%;
+  height: 29%;
   margin-top: 2%;
-  min-width: 150px;
+  min-width: 230px;
   opacity: 1;
-  padding-left: 20px;
-  padding-right: 20px;
   position: absolute;
   right: 33px;
   top: 10px;
-  width: 22%;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-sidebar {
@@ -108,11 +108,10 @@ body {
   height: 12vh;
 }
 
-.header-container {
+/*.header-container {
   margin-left: 10px;
   margin-top: 20px;
-  display: flex;
-}
+}*/
 
 .header-container p {
   font-size: 20px;
@@ -129,9 +128,9 @@ body {
 }
 
 .checkbox-container {
-  margin-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-left: 14%;
+  margin-top: 1%;
+  margin-bottom: 9%;
   padding: 0px;
 }
 
@@ -155,13 +154,13 @@ body {
   padding-left: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 80%;
+  width: 71%;
   transition: all 0.5s;
   text-align: center;
   cursor: pointer;
   font-size: 21px;
   color: black;
-  margin-left: 10%;
+  margin-left: 15%;
 }
 
 .add-location-btn span {
@@ -262,6 +261,8 @@ body {
 }
 
 .modal-body {
+  display: flex;
+  flex-direction: column;
   padding: 2px 16px;
   color: black;
 }
@@ -271,6 +272,10 @@ body {
   margin: 5px 0;
   color: black;
   font-size:16px;
+}
+
+.modal-body textarea {
+  width: 30%;
 }
 
 .instructions {
@@ -289,6 +294,7 @@ body {
 }
 
 .modal-checkbox-container {
+  width: 60%;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -296,6 +302,10 @@ body {
 .modal-checkbox-container h3 {
   margin-bottom: 0px;
   text-decoration: underline;
+}
+
+.type-checkbox-container {
+  width: 60%;
 }
 
 .add-location-map {
@@ -325,9 +335,9 @@ body {
   height: 50px;
   line-height: 1;
   padding-left: 8px;
-  width: 100px;
-  margin-left: 10px;
-  margin-top: 10px;
+  width: 15%;
+  margin-left: 2%;
+  margin-top: 2%;
 }
 
 .the-autocomplete-box {
@@ -335,8 +345,8 @@ body {
   width: 30%;
   height: 2vh;
   float: right;
-  margin-top: 10%;
-  margin-right: 100px;
+  margin-top: 5%;
+  margin-right: 15%;
 }
 
 #appContainer2 {

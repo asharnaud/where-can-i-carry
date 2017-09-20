@@ -15,10 +15,10 @@ class FormCheckboxes extends MoriComponent {
     const openCarryAllowed = mori.get(this.props.imdata, 'modalAllowsOpenCarry')
     const concealedCarryAllowed = mori.get(this.props.imdata, 'modalAllowsConcealedCarry')
     return (
-      <div>
+      <div className='type-checkbox-container'>
         <div className='modal-checkbox-container'>
           <h3>Restriction Type:</h3>
-          <p className='instructions'>**Checked means they allow it unchecked means they do not allow it.**</p>
+          <p className='instructions'>**Checked means they allow it, unchecked means they do not allow it.**</p>
           <label className='checkbox-item-2'>
             <input type='checkbox' checked={openCarryAllowed} onClick={clickAllowsOpenCarry} />
             Allows Open Carry
